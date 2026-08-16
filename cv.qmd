@@ -1,0 +1,128 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    code-fold: false
+    code-tools: false
+date: last-modified
+---
+
+[📄 Download CV as PDF](files/CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
+
+I am an ecologist working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
+
+**Contact:** [jonas.gaigr@gmail.com](mailto:jonas.gaigr@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jonasgaigr/) | [ORCID 0009-0004-0267-1382](https://orcid.org/0009-0004-0267-1382)
+
+## Work
+
+::: {.timeline-entry}
+**2020 -- present** &nbsp;·&nbsp; Zoologist -- expert on data analysis
+
+Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic
+
+Developing a system for condition evaluation of species and habitats within the Natura 2000 network and taxa with active species protection tools in place.
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2016 -- 2022** &nbsp;·&nbsp; Environmental education lector (part-time)
+
+Biology in Practice programme, Nový PORG Gymnasium (2016--2021) and Open Gate Gymnasium (2021--2022)
+
+Part-time lector at field excursions in Czechia and Europe, providing expertise on the communication of zoology, ecology, and conservation biology.
+:::
+
+## Projects
+
+::: {.timeline-entry}
+**2026 -- 2028** &nbsp;·&nbsp; [Biodiversa+ BiodivPond Pilot](https://biodivpond.github.io)
+
+Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identification of obstacles to wide use. *HORIZON-CL6-2021-BIODIV-02, WP 2.6.8*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2024 -- 2026** &nbsp;·&nbsp; ConNatur LIFE
+
+Conserving Natural Heritage in Ukraine by LIFE. *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2024 -- 2033** &nbsp;·&nbsp; PROSPECTIVE LIFE
+
+Protecting Species Actively by LIFE. *LIFE22-IPN-CZ-PROSPECTIVE LIFE*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2022 -- 2028** &nbsp;·&nbsp; Biodiversa+ Partnership
+
+Horizon Europe Partnership on Biodiversity. *HORIZON-CL6-2021-BIODIV-02*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2020 -- 2026** &nbsp;·&nbsp; LIFE N2K: Revisited
+
+Integrated LIFE project for the Natura 2000 network in the Czech Republic. *LIFE17 IPE/CZ/000005*
+:::
+
+## Education
+
+::: {.timeline-entry}
+**2017 -- 2022** &nbsp;·&nbsp; MSci Zoology, University of Glasgow
+
+1st Class, an equivalent of A or GPA 4.0.
+
+Project: *Modelling the Effects of Resource Occurrence on the Metapopulation Dynamics of an Endangered Butterfly*
+:::
+
+## Fellowships and training
+
+::: {.timeline-entry}
+**2023 -- 2025** &nbsp;·&nbsp; Klaus Toepfer Fellowship
+
+International Academy for Nature Conservation, Isle of Vilm, German Federal Agency for Nature Conservation.
+
+Transfer project: *A Framework for Condition Evaluation of Threatened Insect Species in Czechia*
+:::
+
+## Conferences
+
+- 2026 -- 8th European Congress on Conservation Biology, Leiden, Netherlands (poster)
+- 2026 -- BioMonWeek, Montpellier, France (poster)
+- 2024 -- 7th European Congress on Conservation Biology, Bologna, Italy (poster)
+- 2023 -- 31st International Congress on Conservation Biology, Kigali, Rwanda (oral presentation)
+- 2023 -- Zoologické dny, Brno, Czechia (poster)
+- 2022 -- 6th European Congress on Conservation Biology, Czechia (poster)
+- 2022 -- Kostelecké inspirování, Kostelec nad Černými Lesy, Czechia (poster)
+- 2021 -- Kostelecké inspirování, Kostelec nad Černými Lesy, Czechia (poster)
+
+## Talks and seminars
+
+- **Citizen science in nature conservation**, CZ-UA round table series, ConNatur LIFE, 2025
+- **TAIEX Expert Mission to Kosovo**, Habitats Directive and Birds Directive transposition, 2024
+- **Data in Czech nature conservation**, Current trends in nature conservation course, Charles University in Prague, 2022
+
+## Science and nature conservation communication
+
+- **Nature Conservation in Czechia**, talk, Patagonia Prague, 2024
+- **Biodiversity monitoring: why, what and how?**, talk, Science Café Czech Republic, 2022
+- **Highly commended** -- Nature Conservation Agency CR 2022 and 2023 photography competition
+- **First prize** -- University of Glasgow PhotoSCENE 2021-22
+- **Second prize** -- University of Glasgow PhotoSCENE 2019-20
+
+## Conservation management experience
+
+- **Management of protected sites** -- mowing and general management of sites of community importance as part of a public contract executed by Tři Kavky, z. s. (NGO)
+- **Management planning** for protected sites under national legislation
+
+## Publications
+
+See the full [list of publications](publications.qmd).

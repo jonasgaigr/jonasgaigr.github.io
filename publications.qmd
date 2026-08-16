@@ -1,0 +1,34 @@
+---
+title: "Publications"
+format:
+  html:
+    code-fold: false
+    code-tools: false
+date: last-modified
+---
+
+Full and up-to-date record on my [ORCID profile](https://orcid.org/0009-0004-0267-1382).
+
+## 2026
+
+- *Varukha, A.*, **Gaigr, J.**, *& Spinova, Y.* (2026) *Comparative Analysis of National Biodiversity Monitoring Systems in Ukraine and Czechia using a Developed Evaluation Framework*. **Ukrainian Nature Conservation Journal** 1(1): 33--56.
+[![Badge](https://img.shields.io/badge/DOI-10.67531%2Funcg--j.2026.1.1.33--56-yellow)](https://doi.org/10.67531/uncg-j.2026.1.1.33-56)
+
+- **Gaigr, J.** (2026) *První nález skvrnaře Euoniticellus fulvus (Coleoptera: Scarabaeidae) v západních Čechách po půl století* (First record of sandy dung beetle *Euoniticellus fulvus* (Coleoptera: Scarabaeidae) in western Bohemia in half a century). **Západočeské entomologické listy** 17: 47--50.
+
+- *Bladon, A. J., Akite, P., Chowdhury, S., [...]* **Gaigr, J.**, *[et al.]* (2026) *Global Biodiversity Framework Targets Can Drive Action on Insect Declines, but Lack Robust Indicators to Prove Their Effectiveness*. **Conservation Letters** 19(2): e70025.
+[![Badge](https://img.shields.io/badge/DOI-10.1111%2Fcon4.70025-yellow)](https://doi.org/10.1111/con4.70025)
+
+## 2025
+
+- *Alison, J., Gillespie, M. A. K.,* **Gaigr, J.**, *Bota Cabau, G., Brotons, L., De Bruyn, L., Danger, S., Finch, D., Grethen, K. J., Hamidovic, D., Mougeot, G., Scanferla, J., Nemček, V., Pettersson, L. B., Sibik, J., Šibíková, M., Zadravec, M., Zilber, R. & Hoye, T. T.* (2025) *Automated Biodiversity Monitoring Stations (ABMS): Biodiversa+ ABMS Pilot report*. **Biodiversa+**.
+[![Badge](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20826248-yellow)](https://doi.org/10.5281/zenodo.20826248)
+
+## 2024
+
+- *Basille, M., Body, G., Brotons, L.,* **Gaigr, J.**, *Onen Tarantini, S., Pulieri, M., Rodić, P., Silva del Pozo, M. & Winkler, R.* (2024) *Concept note on a methodological approach to define priorities for monitoring biodiversity*. **Biodiversa+**.
+[![Badge](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.13934670-yellow)](https://doi.org/10.5281/zenodo.13934670)
+
+## In preparation
+
+- **Gaigr, J.**, *Suchackova, A., Hejda, R., Konvicka, M.* *The Effects of Site Management and Habitat Characteristics on the Occurrence of Phengaris nausithous and P. teleius (Lepidoptera: Lycaenidae)*. In prep. for **Journal of Insect Conservation**.

@@ -1,0 +1,47 @@
+---
+title: "Jonáš Gaigr"
+image: img/jonas_gaigr.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: rectangle
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jonas.gaigr@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/jonasgaigr
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0009-0004-0267-1382
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jonasgaigr/
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/jonasgaigr.bsky.social
+---
+
+::: {#hero-heading}
+
+Hello, I'm Jonáš Gaigr.
+
+I am an ecologist and conservationist at the [Department of Biodiversity Monitoring](https://www.aopk.gov.cz), [Nature Conservation Agency of the Czech Republic](https://www.aopk.gov.cz). I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
+
+🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) repository.
+
+🐸 I coordinate the [BiodivPond pilot](https://biodivpond.github.io), a transnational pond biodiversity monitoring initiative supported by the [Biodiversa+ partnership](https://www.biodiversa.eu/). If you work on amphibian, bat, or aquatic invertebrate monitoring and conservation in Europe, I'd love to hear from you.
+
+👯 I'm looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.
+
+💩🐞 I also dig into the faunistics of European dung beetles, especially [latitudinal range shifts](https://github.com/jonasgaigr/Dung_beetle_expansion).
+
+### Website navigation
+
+- [Projects](projects.qmd) 🚀
+- [CV](cv.qmd) 📄
+- [Publications](publications.qmd) 📚
+- [Get in touch](contact.qmd) 📬
+
+:::

@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jonáš Gaigr"
+  description: "Personal website of Jonáš Gaigr, ecologist and conservationist at the Nature Conservation Agency of the Czech Republic."
+  site-url: "https://jonasgaigr.github.io"
+  favicon: img/jonas_gaigr.jpg
+  image: img/jonas_gaigr.jpg
+  page-navigation: false
+
+  page-footer:
+    left: "&copy; 2026 Jonáš Gaigr"
+    right: "This page is built with 🌿 and [Quarto](https://quarto.org/)."
+
+  repo-url: "https://github.com/jonasgaigr/jonasgaigr.github.io"
+
+  sidebar:
+    pinned: true
+    align: center
+    style: "docked"
+    collapse-level: 1
+    logo: img/jonas_gaigr.jpg
+    contents:
+      - text: "Home"
+        href: index.qmd
+
+      - text: "Projects"
+        href: projects.qmd
+
+      - section: "About me"
+        contents:
+          - text: "CV"
+            href: cv.qmd
+          - text: "Publications"
+            href: publications.qmd
+
+      - text: "Get in touch"
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    link-external-newwindow: true

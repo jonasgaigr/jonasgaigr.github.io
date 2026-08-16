@@ -1,0 +1,40 @@
+---
+title: "Get in touch"
+about:
+  id: contact-heading
+  template: solana
+  image: img/jonas_gaigr.jpg
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jonas.gaigr@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/jonasgaigr
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0009-0004-0267-1382
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jonasgaigr/
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/jonasgaigr.bsky.social
+    - icon: twitter-x
+      text: X (Twitter)
+      href: https://x.com/jonasgaigr
+---
+
+::: {#contact-heading}
+
+I'm always happy to hear from fellow ecologists, conservation practitioners, and anyone working on biodiversity monitoring. I'm especially keen to connect on:
+
+- Biodiversity trends in Czechia, condition assessment of protected species, and the impacts of conservation interventions
+- Amphibian, bat, and aquatic invertebrate monitoring and conservation in Europe, through the [BiodivPond pilot](https://biodivpond.github.io)
+- Faunistics of European dung beetles, especially latitudinal range shifts
+- Translating R workflows in [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) to SQL
+
+The best way to reach me is by [email](mailto:jonas.gaigr@gmail.com). You can also find me on the channels below.
+
+:::

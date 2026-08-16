@@ -1,0 +1,40 @@
+/* small supplementary tweaks that don't belong in the bootstrap scss theme */
+
+.quarto-title-banner {
+  background-color: #f2f1ea;
+}
+
+#hero-heading .about-links .about-link {
+  border-color: #2f5d50;
+  color: #2f5d50;
+}
+
+#hero-heading .about-links .about-link:hover {
+  background-color: #2f5d50;
+  color: #fdfcf9;
+}
+
+.badge-list a img {
+  margin-bottom: 4px;
+}
+
+/* bootstrap-icons has no ORCID glyph; swap in the official iD mark */
+.about-link i.bi-orcid::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url("img/orcid.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: -0.15em;
+}
+
+.timeline-entry {
+  margin-bottom: 1.2rem;
+}
+
+.timeline-entry hr {
+  margin: 1.2rem 0;
+  border-top: 1px dashed #cfcabf;
+}

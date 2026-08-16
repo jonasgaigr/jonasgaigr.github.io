@@ -1,0 +1,74 @@
+---
+title: "Projects"
+date: last-modified
+---
+
+## Current projects
+
+::: {.timeline-entry}
+### [BiodivPond Pilot](https://biodivpond.github.io) · 2026--2028
+
+Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use, as part of the [Biodiversa+ partnership](https://www.biodiversa.eu/). I coordinate this pilot, which builds a transnational pond monitoring network across Europe, designs citizen-science-based monitoring schemes, and delivers open-access data infrastructure.
+
+*HORIZON-CL6-2021-BIODIV-02, WP 2.6.8* &nbsp;·&nbsp; [Website](https://biodivpond.github.io) · [GitHub](https://github.com/BiodivPond)
+:::
+
+<hr>
+
+::: {.timeline-entry}
+### host_naturecz · ongoing
+
+An automatic system for evaluating the condition of species and habitats in Czechia across scales, supporting the Natura 2000 network and taxa with active species protection tools in place. The repository covers data analysis algorithms and the underlying evaluation methodology.
+
+[GitHub repository](https://github.com/BiodivMonCZ/host_naturecz/)
+:::
+
+<hr>
+
+::: {.timeline-entry}
+### ConNatur LIFE · 2024--2026
+
+Conserving Natural Heritage in Ukraine by LIFE -- supporting the transfer of Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine.
+
+*LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+### PROSPECTIVE LIFE · 2024--2033
+
+Protecting Species Actively by LIFE.
+
+*LIFE22-IPN-CZ-PROSPECTIVE LIFE*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+### Biodiversa+ Partnership · 2022--2028
+
+Horizon Europe Partnership on Biodiversity.
+
+*HORIZON-CL6-2021-BIODIV-02*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+### LIFE N2K: Revisited · 2020--2026
+
+Integrated LIFE project for the Natura 2000 network in the Czech Republic.
+
+*LIFE17 IPE/CZ/000005*
+:::
+
+## Side projects
+
+::: {.timeline-entry}
+### Dung beetle range shifts
+
+Digging into the faunistics of European dung beetles, especially latitudinal shifts in their range, alongside new distribution records for Czechia.
+
+[GitHub repository](https://github.com/jonasgaigr/Dung_beetle_expansion)
+:::
