@@ -1,13 +1,22 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Jonáš Gaigr"
 format:
   html:
     code-fold: false
     code-tools: false
+    format-links: false
+  typst:
+    output-file: "CV_Jonas_Gaigr.pdf"
+    margin:
+      x: 2cm
+      y: 2cm
 date: last-modified
 ---
 
-[📄 Download CV as PDF](files/CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
+::: {.content-visible when-format="html"}
+[📄 Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
+:::
 
 I am an ecologist working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
 
