@@ -21,7 +21,6 @@ website:
     align: center
     style: "docked"
     collapse-level: 1
-    logo: img/jonas_gaigr.jpg
     contents:
       - text: "Home"
         href: index.qmd
