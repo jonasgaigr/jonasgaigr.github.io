@@ -33,6 +33,8 @@ I am an ecologist and conservationist at the [Department of Biodiversity Monitor
 
 🐸 I coordinate the [BiodivPond pilot](https://biodivpond.github.io), a transnational pond biodiversity monitoring initiative supported by the [Biodiversa+ partnership](https://www.biodiversa.eu/). If you work on amphibian, bat, or aquatic invertebrate monitoring and conservation in Europe, I'd love to hear from you.
 
+📦 I develop [ndopred](https://github.com/jonasgaigr/ndopred), an R package that turns occurrence records from NDOP (*Nálezová databáze ochrany přírody*, the Agency's species occurrence database) into IUCN Red List metrics and categories for national and regional Red List work. It calculates extent of occurrence, area of occupancy, and population trends following the IUCN criteria (v3.1) and the 2024 guidelines, and ships two Shiny dashboards: one for screening long lists of taxa, one for settling a defensible category taxon by taxon.
+
 👯 I'm looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.
 
 💩🐞 I also dig into the faunistics of European dung beetles, collecting data on their distribution and abundance, like the [occurrence data for *Euoniticellus fulvus*](https://www.researchgate.net/publication/408416676_Prvni_nalez_skvrnare_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_v_zapadnich_Cechach_po_pul_stoleti_First_record_of_sandy_dung_beetle_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_in_western_Bohemia_i).
