@@ -53,12 +53,3 @@ Integrated LIFE project for the Natura 2000 network in the Czech Republic.
 *LIFE17 IPE/CZ/000005*
 :::
 
-## Side projects
-
-::: {.timeline-entry}
-### Dung beetle range shifts
-
-Digging into the faunistics of European dung beetles, especially latitudinal shifts in their range, alongside new distribution records for Czechia.
-
-[GitHub repository](https://github.com/jonasgaigr/Dung_beetle_expansion)
-:::
