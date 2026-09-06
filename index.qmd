@@ -35,7 +35,7 @@ I am an ecologist and conservationist at the [Department of Biodiversity Monitor
 
 👯 I'm looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.
 
-💩🐞 I also dig into the faunistics of European dung beetles, especially [latitudinal range shifts](https://github.com/jonasgaigr/Dung_beetle_expansion).
+💩🐞 I also dig into the faunistics of European dung beetles, collecting data on their distribution and abundance, like the [occurrence data for *Euoniticellus fulvus*](https://www.researchgate.net/publication/408416676_Prvni_nalez_skvrnare_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_v_zapadnich_Cechach_po_pul_stoleti_First_record_of_sandy_dung_beetle_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_in_western_Bohemia_i).
 
 ### Website navigation
 
