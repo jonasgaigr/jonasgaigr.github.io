@@ -16,16 +16,6 @@ Biodiversity monitoring of ponds: evaluating the applicability of novel methods 
 <hr>
 
 ::: {.timeline-entry}
-### host_naturecz · ongoing
-
-An automatic system for evaluating the condition of species and habitats in Czechia across scales, supporting the Natura 2000 network and taxa with active species protection tools in place. The repository covers data analysis algorithms and the underlying evaluation methodology.
-
-[GitHub repository](https://github.com/BiodivMonCZ/host_naturecz/)
-:::
-
-<hr>
-
-::: {.timeline-entry}
 ### ConNatur LIFE · 2024--2026
 
 Conserving Natural Heritage in Ukraine by LIFE -- supporting the transfer of Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine.
