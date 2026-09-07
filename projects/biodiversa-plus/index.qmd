@@ -1,0 +1,23 @@
+---
+title: "Biodiversa+"
+subtitle: "The European Biodiversity Partnership"
+description: |
+  The Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.
+image: /img/projects/biodiversaplus.jpg
+categories: [partnership, Biodiversa+, monitoring, Horizon Europe]
+toc: false
+---
+
+**2022 -- 2028** &nbsp;·&nbsp; *Contributor, biodiversity monitoring work stream*
+
+[Biodiversa+](https://www.biodiversa.eu/) is the European Biodiversity Partnership, co-funded by the European Commission under Horizon Europe. It coordinates research programmes and monitoring across Europe in support of the EU Biodiversity Strategy for 2030, and connects 75 organisations from 37 countries.
+
+My contribution sits in the monitoring work stream: developing a methodological approach for defining priorities for biodiversity monitoring, and taking part in the [monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/) that test whether novel methods -- eDNA, automated monitoring stations, acoustic monitoring -- can be applied across countries at scale.
+
+*Grant agreement 101052342, call HORIZON-CL6-2021-BIODIV-02.*
+
+## Links
+
+[Biodiversa+ website](https://www.biodiversa.eu/){.btn .btn-outline-primary .btn-sm role="button"}
+[Monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary .btn-sm role="button"}
+[CORDIS project record](https://cordis.europa.eu/project/id/101052342){.btn .btn-outline-primary .btn-sm role="button"}

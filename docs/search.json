@@ -55,24 +55,60 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jonáš Gaigr",
+    "objectID": "projects/prospective-life/index.html",
+    "href": "projects/prospective-life/index.html",
+    "title": "PROSPECTIVE LIFE",
     "section": "",
-    "text": "Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     ORCID\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Bluesky\n  \n\n  \n  \nHello, I’m Jonáš Gaigr.\nI am an ecologist and conservationist at the Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic. I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.\n🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the host_naturecz repository.\n📦 I develop ndopred, an R package that turns occurrence records from NDOP (Nálezová databáze ochrany přírody, the Agency’s species occurrence database) into IUCN Red List metrics and categories for national and regional Red List work. It calculates extent of occurrence, area of occupancy, and population trends following the IUCN criteria (v3.1) and the 2024 guidelines, and ships two Shiny dashboards: one for screening long lists of taxa, one for settling a defensible category taxon by taxon.\n🐸 I coordinate the BiodivPond pilot, a transnational pond biodiversity monitoring initiative supported by the Biodiversa+ partnership. If you work on amphibian, bat, or aquatic invertebrate monitoring and conservation in Europe, I’d love to hear from you.\n👯 I’m looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.\n💩🐞 I also dig into the faunistics of European dung beetles, collecting data on their distribution and abundance, like the occurrence data for Euoniticellus fulvus.\n\nWebsite navigation\n\nProjects 🚀\nCV 📄\nPublications 📚\nGet in touch 📬",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "2024 – 2033  ·  Nature Conservation Agency of the Czech Republic\nFor a large share of threatened species in Czechia, favourable conservation status cannot be reached simply by managing habitat. Active management of the species itself is needed – ex situ cultivation or captive breeding, reinforcement of wild populations, and targeted intervention at individual sites.\nPROSPECTIVE LIFE is the integrated LIFE project that puts those tools in place, and runs for a decade. My part of it is the evaluation side: building the framework and the analytical workflows used to judge whether a species is in favourable condition, and whether an intervention has moved it.\nLIFE22-IPN-CZ-PROSPECTIVE-LIFE / 101104621."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Get in touch",
+    "objectID": "projects/prospective-life/index.html#links",
+    "href": "projects/prospective-life/index.html#links",
+    "title": "PROSPECTIVE LIFE",
+    "section": "Links",
+    "text": "Links\nEuropean Commission project page Nature Conservation Agency"
+  },
+  {
+    "objectID": "projects/life-n2k-revisited/index.html",
+    "href": "projects/life-n2k-revisited/index.html",
+    "title": "LIFE-IP N2K Revisited",
     "section": "",
-    "text": "Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     ORCID\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Bluesky\n  \n  \n    \n     X (Twitter)\n  \n\n      \nI’m always happy to hear from fellow ecologists, conservation practitioners, and anyone working on biodiversity monitoring. I’m especially keen to connect on:\n\nBiodiversity trends in Czechia, condition assessment of protected species, and the impacts of conservation interventions\nAmphibian, bat, and aquatic invertebrate monitoring and conservation in Europe, through the BiodivPond pilot\nFaunistics of European dung beetles, especially latitudinal range shifts\nTranslating R workflows in host_naturecz to SQL\n\nThe best way to reach me is by email. You can also find me on the channels below.",
-    "crumbs": [
-      "Get in touch"
-    ]
+    "text": "2020 – 2026  ·  Nature Conservation Agency of the Czech Republic\nLIFE-IP N2K Revisited – Jedna příroda – was the first integrated LIFE project in Czechia. Coordinated by the Ministry of the Environment, it connected state administration with the academic sphere to set up a more effective system of care for the Natura 2000 network, and to put the monitoring and evaluation behind it on a firmer footing.\nThis is where my work on condition evaluation began: revising monitoring methodologies, building the algorithms that turn field data into an assessment of species and habitat condition, and reshaping the information systems that aggregate and share that data with conservation authorities and stakeholders.\nLIFE17 IPE/CZ/000005."
+  },
+  {
+    "objectID": "projects/life-n2k-revisited/index.html#links",
+    "href": "projects/life-n2k-revisited/index.html#links",
+    "title": "LIFE-IP N2K Revisited",
+    "section": "Links",
+    "text": "Links\nEuropean Commission project page Jedna příroda Nature Conservation Agency: LIFE"
+  },
+  {
+    "objectID": "projects/connatur-life/index.html",
+    "href": "projects/connatur-life/index.html",
+    "title": "ConNaturLIFE Ukraine",
+    "section": "",
+    "text": "2024 – 2026  ·  Nature Conservation Agency of the Czech Republic\nConNaturLIFE Ukraine set out to kick-start the institutional and legal changes Ukraine needs to implement EU environmental requirements and to establish effective conservation governance. About half of Ukraine’s Emerald Network sites have no conservation status, and those that do are often inadequately managed and protected.\nThe project brought Czech experience of the same transition – Natura 2000 designation, monitoring, and the data systems that support both – to Ukrainian conservation authorities. My contribution was on the monitoring and citizen science side, including a round table series on citizen science in nature conservation, and a comparative analysis of the national biodiversity monitoring systems of Ukraine and Czechia.\nOne visible result: Ukraine’s first nationwide bioblitz, run in 2025, with hundreds of active observers uploading records to iNaturalist and a large validator community behind them.\nLIFE23-PRE-CZ-ConNaturLIFE-Ukraine / 101148569."
+  },
+  {
+    "objectID": "projects/connatur-life/index.html#links",
+    "href": "projects/connatur-life/index.html#links",
+    "title": "ConNaturLIFE Ukraine",
+    "section": "Links",
+    "text": "Links\nEuropean Commission project page Nature Conservation Agency: Ukraine"
+  },
+  {
+    "objectID": "projects/biodiversa-plus/index.html",
+    "href": "projects/biodiversa-plus/index.html",
+    "title": "Biodiversa+",
+    "section": "",
+    "text": "2022 – 2028  ·  Contributor, biodiversity monitoring work stream\nBiodiversa+ is the European Biodiversity Partnership, co-funded by the European Commission under Horizon Europe. It coordinates research programmes and monitoring across Europe in support of the EU Biodiversity Strategy for 2030, and connects 75 organisations from 37 countries.\nMy contribution sits in the monitoring work stream: developing a methodological approach for defining priorities for biodiversity monitoring, and taking part in the monitoring pilots that test whether novel methods – eDNA, automated monitoring stations, acoustic monitoring – can be applied across countries at scale.\nGrant agreement 101052342, call HORIZON-CL6-2021-BIODIV-02."
+  },
+  {
+    "objectID": "projects/biodiversa-plus/index.html#links",
+    "href": "projects/biodiversa-plus/index.html#links",
+    "title": "Biodiversa+",
+    "section": "Links",
+    "text": "Links\nBiodiversa+ website Monitoring pilots CORDIS project record"
   },
   {
     "objectID": "cv.html",
@@ -101,7 +137,7 @@
     "href": "cv.html#projects",
     "title": "Curriculum Vitae",
     "section": "Projects",
-    "text": "Projects\n\n2026 – 2028  ·  Biodiversa+ BiodivPond Pilot\nBiodiversity monitoring of ponds: evaluating the applicability of novel methods and identification of obstacles to wide use. HORIZON-CL6-2021-BIODIV-02, WP 2.6.8\n\n\n\n2024 – 2026  ·  ConNatur LIFE\nConserving Natural Heritage in Ukraine by LIFE. LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569\n\n\n\n2024 – 2033  ·  PROSPECTIVE LIFE\nProtecting Species Actively by LIFE. LIFE22-IPN-CZ-PROSPECTIVE LIFE\n\n\n\n2022 – 2028  ·  Biodiversa+ Partnership\nHorizon Europe Partnership on Biodiversity. HORIZON-CL6-2021-BIODIV-02\n\n\n\n2020 – 2026  ·  LIFE N2K: Revisited\nIntegrated LIFE project for the Natura 2000 network in the Czech Republic. LIFE17 IPE/CZ/000005",
+    "text": "Projects\nMore detail on each project is on the projects page.\n\n2026 – 2028  ·  BiodivPond pilot (coordinator)\nBiodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use. A Biodiversa+ pilot. HORIZON-CL6-2021-BIODIV-02, WP 2.6.8\n\n\n\n2024 – 2026  ·  ConNaturLIFE Ukraine\nConservation of Natural Heritage for Life in Ukraine. LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569\n\n\n\n2024 – 2033  ·  PROSPECTIVE LIFE\nProtect Species Actively by LIFE. LIFE22-IPN-CZ-PROSPECTIVE-LIFE/101104621\n\n\n\n2022 – 2028  ·  Biodiversa+\nThe European Biodiversity Partnership – Horizon Europe partnership on biodiversity. Grant agreement 101052342, HORIZON-CL6-2021-BIODIV-02\n\n\n\n2020 – 2026  ·  LIFE-IP N2K Revisited\nIntegrated LIFE project for the Natura 2000 network in the Czech Republic (Jedna příroda). LIFE17 IPE/CZ/000005",
     "crumbs": [
       "About me",
       "CV"
@@ -185,11 +221,73 @@
     ]
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Get in touch",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     ORCID\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Bluesky\n  \n  \n    \n     X (Twitter)\n  \n\n      \nI’m always happy to hear from fellow ecologists, conservation practitioners, and anyone working on biodiversity monitoring. I’m especially keen to connect on:\n\nBiodiversity trends in Czechia, condition assessment of protected species, and the impacts of conservation interventions\nAmphibian, bat, and aquatic invertebrate monitoring and conservation in Europe, through the BiodivPond pilot\nFaunistics of European dung beetles, especially latitudinal range shifts\nTranslating R workflows in host_naturecz to SQL\n\nThe best way to reach me is by email. You can also find me on the channels below.",
+    "crumbs": [
+      "Get in touch"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jonáš Gaigr",
+    "section": "",
+    "text": "Email\n  \n  \n    \n     GitHub\n  \n  \n    \n     ORCID\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Bluesky\n  \n\n  \n  \nHello, I’m Jonáš Gaigr.\nI am an ecologist and conservationist in the Department of Biodiversity Monitoring at the Nature Conservation Agency of the Czech Republic. I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.\n🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the host_naturecz repository.\n🐸 I coordinate the BiodivPond pilot, a transnational pond biodiversity monitoring initiative supported by the Biodiversa+ partnership. If you work on amphibian, bat, or aquatic invertebrate monitoring and conservation in Europe, I’d love to hear from you.\n📦 I develop ndopred, an R package that turns occurrence records from NDOP (Nálezová databáze ochrany přírody, the Agency’s species occurrence database) into IUCN Red List metrics and categories for national and regional Red List work. It calculates extent of occurrence, area of occupancy, and population trends following the IUCN criteria (v3.1) and the 2024 guidelines, and ships two Shiny dashboards: one for screening long lists of taxa, one for settling a defensible category taxon by taxon.\n👯 I’m looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.\n💩🐞 I also dig into the faunistics of European dung beetles, collecting data on their distribution and abundance, like the occurrence data for Euoniticellus fulvus.\n\nWebsite navigation\n\nProjects 🚀\nCV 📄\nPublications 📚\nGet in touch 📬",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "projects/biodivpond/index.html",
+    "href": "projects/biodivpond/index.html",
+    "title": "BiodivPond pilot",
+    "section": "",
+    "text": "2026 – 2028  ·  Coordinator\nPonds support a large share of freshwater biodiversity in European landscapes and buffer both flood and drought risk, yet they are routinely left out of national monitoring schemes because they are small, numerous and widely dispersed. BiodivPond is a Biodiversa+ pilot that tests whether novel methods can close that gap, and documents what stands in the way of applying them at scale.\nThe pilot has three strands:\nOutputs include a comparative evaluation of eDNA, passive acoustic monitoring and traditional methods, practical citizen-science guidelines, dedicated outputs on Triturus cristatus monitoring, and harmonised open-access datasets from both core and citizen-science ponds.\nFunded through the European Biodiversity Partnership (Biodiversa+), call HORIZON-CL6-2021-BIODIV-02, WP 2.6.8."
+  },
+  {
+    "objectID": "projects/biodivpond/index.html#links",
+    "href": "projects/biodivpond/index.html#links",
+    "title": "BiodivPond pilot",
+    "section": "Links",
+    "text": "Links\nPilot website Biodiversa+ pilot page GitHub"
+  },
+  {
+    "objectID": "projects/host-naturecz/index.html",
+    "href": "projects/host-naturecz/index.html",
+    "title": "host_naturecz",
+    "section": "",
+    "text": "Ongoing  ·  Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic\nhost_naturecz holds the algorithms and data workflows behind the condition evaluation system for species and habitats within the Natura 2000 network and for taxa with active species protection tools in place. It is the engine underneath the reporting: aggregating monitoring data, applying evaluation rules consistently, and producing results that can be compared between sites, regions and reporting periods.\nCurrent work includes translating the R workflows into SQL so the evaluation runs closer to the data."
+  },
+  {
+    "objectID": "projects/host-naturecz/index.html#links",
+    "href": "projects/host-naturecz/index.html#links",
+    "title": "host_naturecz",
+    "section": "Links",
+    "text": "Links\nGitHub repository"
+  },
+  {
+    "objectID": "projects/ndopred/index.html",
+    "href": "projects/ndopred/index.html",
+    "title": "ndopred",
+    "section": "",
+    "text": "Ongoing  ·  Author and maintainer\nndopred takes occurrence records from NDOP (Nálezová databáze ochrany přírody, the Nature Conservation Agency’s species occurrence database) and derives the metrics that Red List assessment actually turns on: extent of occurrence, area of occupancy, and population trends, following the IUCN criteria (v3.1) and the 2024 guidelines.\nIt ships two Shiny dashboards for the two situations that come up in practice: one for screening long lists of taxa, and one for settling a defensible category taxon by taxon."
+  },
+  {
+    "objectID": "projects/ndopred/index.html#links",
+    "href": "projects/ndopred/index.html#links",
+    "title": "ndopred",
+    "section": "Links",
+    "text": "Links\nGitHub repository"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use, as part of the Biodiversa+ partnership. I coordinate this pilot, which builds a transnational pond monitoring network across Europe, designs citizen-science-based monitoring schemes, and delivers open-access data infrastructure.\nHORIZON-CL6-2021-BIODIV-02, WP 2.6.8  ·  Website · GitHub\n\n\n\n\nAn automatic system for evaluating the condition of species and habitats in Czechia across scales, supporting the Natura 2000 network and taxa with active species protection tools in place. The repository covers data analysis algorithms and the underlying evaluation methodology.\nGitHub repository\n\n\n\n\nConserving Natural Heritage in Ukraine by LIFE – supporting the transfer of Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine.\nLIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569\n\n\n\n\nProtecting Species Actively by LIFE.\nLIFE22-IPN-CZ-PROSPECTIVE LIFE\n\n\n\n\nHorizon Europe Partnership on Biodiversity.\nHORIZON-CL6-2021-BIODIV-02\n\n\n\n\nIntegrated LIFE project for the Natura 2000 network in the Czech Republic.\nLIFE17 IPE/CZ/000005",
+    "text": "A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe codebase behind a system for evaluating the condition of species and habitats in Czechia across scales, from individual sites to the national Natura 2000 reporting picture.\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -199,17 +297,17 @@
     "href": "projects.html#current-projects",
     "title": "Projects",
     "section": "",
-    "text": "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use, as part of the Biodiversa+ partnership. I coordinate this pilot, which builds a transnational pond monitoring network across Europe, designs citizen-science-based monitoring schemes, and delivers open-access data infrastructure.\nHORIZON-CL6-2021-BIODIV-02, WP 2.6.8  ·  Website · GitHub\n\n\n\n\nAn automatic system for evaluating the condition of species and habitats in Czechia across scales, supporting the Natura 2000 network and taxa with active species protection tools in place. The repository covers data analysis algorithms and the underlying evaluation methodology.\nGitHub repository\n\n\n\n\nConserving Natural Heritage in Ukraine by LIFE – supporting the transfer of Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine.\nLIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569\n\n\n\n\nProtecting Species Actively by LIFE.\nLIFE22-IPN-CZ-PROSPECTIVE LIFE\n\n\n\n\nHorizon Europe Partnership on Biodiversity.\nHORIZON-CL6-2021-BIODIV-02\n\n\n\n\nIntegrated LIFE project for the Natura 2000 network in the Czech Republic.\nLIFE17 IPE/CZ/000005",
+    "text": "A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAn R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe codebase behind a system for evaluating the condition of species and habitats in Czechia across scales, from individual sites to the national Natura 2000 reporting picture.\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
   },
   {
-    "objectID": "projects.html#side-projects",
-    "href": "projects.html#side-projects",
+    "objectID": "projects.html#past-projects",
+    "href": "projects.html#past-projects",
     "title": "Projects",
-    "section": "Side projects",
-    "text": "Side projects\n\nDung beetle range shifts\nDigging into the faunistics of European dung beetles, especially latitudinal shifts in their range, alongside new distribution records for Czechia.\nGitHub repository",
+    "section": "Past projects",
+    "text": "Past projects\n\n\n\n\n\n\n\n\n\n\nConNaturLIFE Ukraine\n\n\nA preparatory LIFE project transferring Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine. It supported Ukraine’s first nationwide bioblitz.\n\n\n\n\n\n\n\n\n\n\n\n\nLIFE-IP N2K Revisited\n\n\nThe first integrated LIFE project in Czechia, known domestically as Jedna příroda, setting up a more effective system of care for Natura 2000 sites. My work sat in the monitoring and evaluation work package.\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]

@@ -4,7 +4,7 @@ image: img/jonas_gaigr.jpg
 about:
   id: hero-heading
   template: trestles
-  image-shape: rectangle
+  image-shape: round
   links:
     - icon: envelope
       text: Email
@@ -27,7 +27,7 @@ about:
 
 Hello, I'm Jonáš Gaigr.
 
-I am an ecologist and conservationist at the [Department of Biodiversity Monitoring](https://www.aopk.gov.cz), [Nature Conservation Agency of the Czech Republic](https://www.aopk.gov.cz). I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
+I am an ecologist and conservationist in the Department of Biodiversity Monitoring at the [Nature Conservation Agency of the Czech Republic](https://aopk.gov.cz/web/en). I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
 
 🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) repository.
 

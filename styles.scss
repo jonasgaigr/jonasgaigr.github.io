@@ -29,6 +29,14 @@ $sidebar-bg: #f2f1ea !default;
   font-weight: 600;
 }
 
-.about-image img {
+// the portrait is `img.about-image`, not an img nested inside `.about-image`
+img.about-image {
   border: 4px solid $secondary;
+}
+
+// keep the round portrait a true circle even if the source image is not square
+img.about-image.round {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
 }

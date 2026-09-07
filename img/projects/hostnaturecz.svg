@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Stacked data layers feeding a small network">
+  <rect width="600" height="360" fill="#45705f"/>
+  <circle cx="70" cy="320" r="130" fill="#fdfcf9" opacity="0.06"/>
+  <g fill="none" stroke="#fdfcf9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="224" cy="112" rx="94" ry="34"/>
+    <path d="M130 112 L130 180 a94 34 0 0 0 188 0 L318 112"/>
+    <path d="M130 180 L130 248 a94 34 0 0 0 188 0 L318 180"/>
+  </g>
+  <g stroke="#7a9e7e" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M330 214 L432 152 M330 214 L432 214 M330 214 L432 276"/>
+  </g>
+  <g fill="#7a9e7e">
+    <circle cx="446" cy="152" r="20"/><circle cx="446" cy="214" r="20"/><circle cx="446" cy="276" r="20"/>
+  </g>
+</svg>

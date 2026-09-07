@@ -44,42 +44,44 @@ Part-time lector at field excursions in Czechia and Europe, providing expertise 
 
 ## Projects
 
-::: {.timeline-entry}
-**2026 -- 2028** &nbsp;·&nbsp; [Biodiversa+ BiodivPond Pilot](https://biodivpond.github.io)
+More detail on each project is on the [projects page](projects.qmd).
 
-Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identification of obstacles to wide use. *HORIZON-CL6-2021-BIODIV-02, WP 2.6.8*
+::: {.timeline-entry}
+**2026 -- 2028** &nbsp;·&nbsp; [BiodivPond pilot](https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/) (coordinator)
+
+Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use. A [Biodiversa+](https://www.biodiversa.eu/) pilot. *HORIZON-CL6-2021-BIODIV-02, WP 2.6.8*
 :::
 
 <hr>
 
 ::: {.timeline-entry}
-**2024 -- 2026** &nbsp;·&nbsp; ConNatur LIFE
+**2024 -- 2026** &nbsp;·&nbsp; [ConNaturLIFE Ukraine](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine)
 
-Conserving Natural Heritage in Ukraine by LIFE. *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
+Conservation of Natural Heritage for Life in Ukraine. *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
 :::
 
 <hr>
 
 ::: {.timeline-entry}
-**2024 -- 2033** &nbsp;·&nbsp; PROSPECTIVE LIFE
+**2024 -- 2033** &nbsp;·&nbsp; [PROSPECTIVE LIFE](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-IPN-CZ-PROSPECTIVE-LIFE-101104621/protect-species-actively-by-life)
 
-Protecting Species Actively by LIFE. *LIFE22-IPN-CZ-PROSPECTIVE LIFE*
+Protect Species Actively by LIFE. *LIFE22-IPN-CZ-PROSPECTIVE-LIFE/101104621*
 :::
 
 <hr>
 
 ::: {.timeline-entry}
-**2022 -- 2028** &nbsp;·&nbsp; Biodiversa+ Partnership
+**2022 -- 2028** &nbsp;·&nbsp; [Biodiversa+](https://www.biodiversa.eu/)
 
-Horizon Europe Partnership on Biodiversity. *HORIZON-CL6-2021-BIODIV-02*
+The European Biodiversity Partnership -- Horizon Europe partnership on biodiversity. *Grant agreement 101052342, HORIZON-CL6-2021-BIODIV-02*
 :::
 
 <hr>
 
 ::: {.timeline-entry}
-**2020 -- 2026** &nbsp;·&nbsp; LIFE N2K: Revisited
+**2020 -- 2026** &nbsp;·&nbsp; [LIFE-IP N2K Revisited](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic)
 
-Integrated LIFE project for the Natura 2000 network in the Czech Republic. *LIFE17 IPE/CZ/000005*
+Integrated LIFE project for the Natura 2000 network in the Czech Republic ([Jedna příroda](https://www.jednapriroda.cz)). *LIFE17 IPE/CZ/000005*
 :::
 
 ## Education

@@ -1,0 +1,22 @@
+---
+title: "PROSPECTIVE LIFE"
+subtitle: "Protect Species Actively by LIFE"
+description: |
+  A ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.
+image: /img/projects/prospectivelife.png
+categories: [LIFE, species protection, Czechia, monitoring]
+toc: false
+---
+
+**2024 -- 2033** &nbsp;·&nbsp; *Nature Conservation Agency of the Czech Republic*
+
+For a large share of threatened species in Czechia, favourable conservation status cannot be reached simply by managing habitat. Active management of the species itself is needed -- *ex situ* cultivation or captive breeding, reinforcement of wild populations, and targeted intervention at individual sites.
+
+PROSPECTIVE LIFE is the integrated LIFE project that puts those tools in place, and runs for a decade. My part of it is the evaluation side: building the framework and the analytical workflows used to judge whether a species is in favourable condition, and whether an intervention has moved it.
+
+*LIFE22-IPN-CZ-PROSPECTIVE-LIFE / 101104621.*
+
+## Links
+
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-IPN-CZ-PROSPECTIVE-LIFE-101104621/protect-species-actively-by-life){.btn .btn-outline-primary .btn-sm role="button"}
+[Nature Conservation Agency](https://aopk.gov.cz/web/en/-/prospective-life){.btn .btn-outline-primary .btn-sm role="button"}

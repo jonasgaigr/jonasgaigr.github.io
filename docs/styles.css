@@ -38,3 +38,61 @@
   margin: 1.2rem 0;
   border-top: 1px dashed #cfcabf;
 }
+
+/* ---- project listing cards ---- */
+
+#listing-current .card,
+#listing-past .card {
+  background-color: #ffffff;
+  border: 1px solid #e4e1d7;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+#listing-current .card:hover,
+#listing-past .card:hover {
+  transform: translateY(-3px);
+  border-color: #7a9e7e;
+  box-shadow: 0 6px 18px rgba(47, 93, 80, 0.14);
+}
+
+#listing-current .card-img-top,
+#listing-past .card-img-top {
+  margin-bottom: 0;
+}
+
+#listing-current .thumbnail-image,
+#listing-past .thumbnail-image {
+  /* logos must never be cropped: letterbox the whole mark into the card */
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffffff;
+}
+
+#listing-current .listing-title,
+#listing-past .listing-title {
+  color: #1f3f36;
+  font-weight: 600;
+}
+
+#listing-current .listing-description,
+#listing-past .listing-description {
+  color: #4a4a45;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+/* the whole card is the link; keep it from picking up link underlines */
+a.quarto-grid-link,
+a.quarto-grid-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* link buttons on individual project pages */
+.btn-outline-primary.btn-sm {
+  margin: 0.15rem 0.3rem 0.15rem 0;
+}

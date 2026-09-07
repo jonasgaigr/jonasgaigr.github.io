@@ -1,0 +1,19 @@
+---
+title: "host_naturecz"
+subtitle: "Condition evaluation of species and habitats across scales"
+description: |
+  The codebase behind a system for evaluating the condition of species and habitats in Czechia across scales, from individual sites to the national Natura 2000 reporting picture.
+image: /img/projects/hostnaturecz.svg
+categories: [software, R, Natura 2000, Czechia, monitoring]
+toc: false
+---
+
+**Ongoing** &nbsp;·&nbsp; *Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic*
+
+`host_naturecz` holds the algorithms and data workflows behind the condition evaluation system for species and habitats within the Natura 2000 network and for taxa with active species protection tools in place. It is the engine underneath the reporting: aggregating monitoring data, applying evaluation rules consistently, and producing results that can be compared between sites, regions and reporting periods.
+
+Current work includes translating the R workflows into SQL so the evaluation runs closer to the data.
+
+## Links
+
+[GitHub repository](https://github.com/BiodivMonCZ/host_naturecz/){.btn .btn-outline-primary .btn-sm role="button"}

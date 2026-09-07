@@ -1,0 +1,29 @@
+---
+title: "BiodivPond pilot"
+subtitle: "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use"
+description: |
+  A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.
+image: /img/projects/biodivpond.png
+categories: [pilot, Biodiversa+, ponds, eDNA, citizen science]
+toc: false
+---
+
+**2026 -- 2028** &nbsp;·&nbsp; *Coordinator*
+
+Ponds support a large share of freshwater biodiversity in European landscapes and buffer both flood and drought risk, yet they are routinely left out of national monitoring schemes because they are small, numerous and widely dispersed. BiodivPond is a [Biodiversa+](https://www.biodiversa.eu/) pilot that tests whether novel methods can close that gap, and documents what stands in the way of applying them at scale.
+
+The pilot has three strands:
+
+- **Core pond monitoring** -- eDNA sampling alongside traditional field methods in a small set of core ponds per country, targeting amphibians, fish and aquatic macroinvertebrates.
+- **Passive acoustic monitoring** -- bat activity, and calling amphibians where relevant, recorded at the same sites.
+- **Citizen science** -- monitoring extended to a much larger set of ponds, supported by training, outreach material and national workshops.
+
+Outputs include a comparative evaluation of eDNA, passive acoustic monitoring and traditional methods, practical citizen-science guidelines, dedicated outputs on *Triturus cristatus* monitoring, and harmonised open-access datasets from both core and citizen-science ponds.
+
+*Funded through the European Biodiversity Partnership (Biodiversa+), call HORIZON-CL6-2021-BIODIV-02, WP 2.6.8.*
+
+## Links
+
+[Pilot website](https://biodivpond.github.io){.btn .btn-outline-primary .btn-sm role="button"}
+[Biodiversa+ pilot page](https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/){.btn .btn-outline-primary .btn-sm role="button"}
+[GitHub](https://github.com/BiodivPond){.btn .btn-outline-primary .btn-sm role="button"}

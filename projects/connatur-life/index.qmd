@@ -1,0 +1,24 @@
+---
+title: "ConNaturLIFE Ukraine"
+subtitle: "Conservation of Natural Heritage for Life in Ukraine"
+description: |
+  A preparatory LIFE project transferring Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine. It supported Ukraine's first nationwide bioblitz.
+image: /img/projects/connaturlife.png
+categories: [LIFE, Ukraine, citizen science, capacity building]
+toc: false
+---
+
+**2024 -- 2026** &nbsp;·&nbsp; *Nature Conservation Agency of the Czech Republic*
+
+ConNaturLIFE Ukraine set out to kick-start the institutional and legal changes Ukraine needs to implement EU environmental requirements and to establish effective conservation governance. About half of Ukraine's Emerald Network sites have no conservation status, and those that do are often inadequately managed and protected.
+
+The project brought Czech experience of the same transition -- Natura 2000 designation, monitoring, and the data systems that support both -- to Ukrainian conservation authorities. My contribution was on the monitoring and citizen science side, including a round table series on citizen science in nature conservation, and a comparative analysis of the national biodiversity monitoring systems of Ukraine and Czechia.
+
+One visible result: Ukraine's first nationwide bioblitz, run in 2025, with hundreds of active observers uploading records to iNaturalist and a large validator community behind them.
+
+*LIFE23-PRE-CZ-ConNaturLIFE-Ukraine / 101148569.*
+
+## Links
+
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine){.btn .btn-outline-primary .btn-sm role="button"}
+[Nature Conservation Agency: Ukraine](https://aopk.gov.cz/web/en/ukraine){.btn .btn-outline-primary .btn-sm role="button"}
