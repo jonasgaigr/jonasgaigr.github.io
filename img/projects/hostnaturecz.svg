@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="Stacked data layers feeding a small network">
-  <rect width="600" height="360" fill="#45705f"/>
-  <circle cx="70" cy="320" r="130" fill="#fdfcf9" opacity="0.06"/>
-  <g fill="none" stroke="#fdfcf9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
-    <ellipse cx="224" cy="112" rx="94" ry="34"/>
-    <path d="M130 112 L130 180 a94 34 0 0 0 188 0 L318 112"/>
-    <path d="M130 180 L130 248 a94 34 0 0 0 188 0 L318 180"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360" role="img" aria-label="host_naturecz: a condition dial running from unfavourable to favourable, with a leaf needle pointing to favourable">
+  <rect width="600" height="360" fill="#f2f1ea"/>
+  <path d="M408.2 217.0 L417.8 214.4 M397.0 190.0 L405.7 185.0 M379.2 166.8 L386.3 159.7 M329.0 137.8 L331.6 128.2 M300.0 134.0 L300.0 124.0 M271.0 137.8 L268.4 128.2 M220.8 166.8 L213.7 159.7 M203.0 190.0 L194.3 185.0 M191.8 217.0 L182.2 214.4" stroke="#d8d4c8" stroke-width="4" stroke-linecap="round"/>
+  <g fill="none" stroke-width="30">
+    <path d="M150.0 246.0 A150 150 0 0 1 220.5 118.8" stroke="#b5533c"/>
+    <path d="M229.6 113.6 A150 150 0 0 1 370.4 113.6" stroke="#d9a441"/>
+    <path d="M379.5 118.8 A150 150 0 0 1 450.0 246.0" stroke="#4c7a52"/>
   </g>
-  <g stroke="#7a9e7e" stroke-width="7" fill="none" stroke-linecap="round">
-    <path d="M330 214 L432 152 M330 214 L432 214 M330 214 L432 276"/>
+  <g transform="translate(300 246) rotate(-38)">
+    <path d="M0 0 C42.9 -40.2 108.5 -38.9 134.0 0 C108.5 38.9 42.9 40.2 0 0 Z" fill="#2f5d50"/>
+    <path d="M18.8 0 L124.6 0 M50.9 0 L69.7 -12.1 M50.9 0 L69.7 12.1 M80.4 0 L97.8 -12.1 M80.4 0 L97.8 12.1" stroke="#f2f1ea" stroke-width="4.3" stroke-linecap="round" fill="none"/>
   </g>
-  <g fill="#7a9e7e">
-    <circle cx="446" cy="152" r="20"/><circle cx="446" cy="214" r="20"/><circle cx="446" cy="276" r="20"/>
-  </g>
+  <circle cx="300" cy="246" r="18" fill="#1f3f36"/>
+  <circle cx="300" cy="246" r="6" fill="#f2f1ea"/>
+  <path d="M120 290 H480" stroke="#cfcabf" stroke-width="4" stroke-linecap="round"/>
 </svg>
