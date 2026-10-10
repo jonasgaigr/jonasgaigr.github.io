@@ -18,7 +18,7 @@ date: last-modified
 [📄 Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
 :::
 
-I am an ecologist working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
+I am an ecologist at the Nature Conservation Agency of the Czech Republic and a PhD student at the Faculty of Environmental Sciences, Czech University of Life Sciences Prague, working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
 
 **Contact:** [jonas.gaigr@gmail.com](mailto:jonas.gaigr@gmail.com) | [LinkedIn](https://www.linkedin.com/in/jonasgaigr/) | [ORCID 0009-0004-0267-1382](https://orcid.org/0009-0004-0267-1382)
 
@@ -85,6 +85,18 @@ Integrated LIFE project for the Natura 2000 network in the Czech Republic ([Jedn
 :::
 
 ## Education
+
+::: {.timeline-entry}
+**2026 -- present** &nbsp;·&nbsp; PhD student, Faculty of Environmental Sciences, [Czech University of Life Sciences Prague](https://www.czu.cz/en)
+
+Supervisor: [Jiří Vojar](https://wp.czu.cz/cs/index.php/?r=1071&mp=person.info&idClovek=2622)
+
+Thesis topic: *Monitoring methods for amphibian species of European importance in small water bodies and the assessment of their population status in the Czech Natura 2000 network*
+
+A critical evaluation of traditional and novel methods for monitoring amphibian populations and habitats, comparing the detection success of environmental DNA and passive acoustic monitoring against conventional field methods, with a focus on Annex II species such as the great crested newt (*Triturus cristatus*). The project also assesses the status of amphibians in the Czech Natura 2000 network after seven years of standardised monitoring, relating population trends to site management, land cover, and land use.
+:::
+
+<hr>
 
 ::: {.timeline-entry}
 **2017 -- 2022** &nbsp;·&nbsp; MSci Zoology, University of Glasgow

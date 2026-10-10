@@ -27,7 +27,9 @@ about:
 
 Hello, I'm Jonáš Gaigr.
 
-I am an ecologist and conservationist in the Department of Biodiversity Monitoring at the [Nature Conservation Agency of the Czech Republic](https://aopk.gov.cz/web/en). I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
+I am an ecologist and conservationist in the Department of Biodiversity Monitoring at the [Nature Conservation Agency of the Czech Republic](https://aopk.gov.cz/web/en) and a PhD student at the [Faculty of Environmental Sciences](https://www.fzp.czu.cz/en), Czech University of Life Sciences Prague. I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
+
+🎓 Since September 2026, I have been a PhD student supervised by [Jiří Vojar](https://wp.czu.cz/cs/index.php/?r=1071&mp=person.info&idClovek=2622). My doctoral project evaluates traditional and novel methods (environmental DNA and passive acoustic monitoring) for monitoring amphibian species of European importance in small water bodies, and assesses their population status in the Czech Natura 2000 network after seven years of standardised monitoring.
 
 🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) repository.
 
