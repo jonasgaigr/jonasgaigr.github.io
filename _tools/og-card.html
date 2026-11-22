@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Link preview card</title>
+<!-- The image shown when the site is shared (img/og-card.jpg, 1200 x 630).
+     Rebuild with: python _tools/og-card.py -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600&display=swap">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    background: linear-gradient(to bottom, #cbdfe8 0%, #e2ebe4 64%, #f3efe2 100%);
+    color: #1d2b27;
+    font-family: "Instrument Sans", sans-serif;
+  }
+  .text { position: absolute; left: 76px; top: 88px; width: 690px; }
+  .eyebrow { font-size: 19px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #45534e; }
+  h1 { font-size: 108px; font-weight: 500; line-height: 0.95; letter-spacing: -0.035em; margin: 22px 0 26px -4px; }
+  p { font-size: 31px; font-weight: 500; line-height: 1.28; letter-spacing: -0.005em; margin: 0; }
+  .url { margin-top: 26px; font-size: 19px; font-weight: 600; letter-spacing: 0.08em; color: #9b5200; }
+  .portrait { position: absolute; right: 84px; top: 92px; width: 290px; height: 290px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 0 6px #f6fbf6, 0 14px 30px rgba(21, 63, 59, 0.18); }
+  .strip { position: absolute; left: 0; right: 0; bottom: 0; height: 115px; background: url("../img/home/d-strip-wide.svg") left bottom / 1200px 115px no-repeat; }
+</style>
+</head>
+<body>
+  <div class="text">
+    <div class="eyebrow">Ecologist and conservationist</div>
+    <h1>Jonáš Gaigr</h1>
+    <p>Monitoring that tells us how nature is doing: amphibians, ponds and Natura&nbsp;2000 in Czechia.</p>
+    <div class="url">jonasgaigr.github.io</div>
+  </div>
+  <img class="portrait" src="../img/jonas_gaigr.jpg" alt="">
+  <div class="strip"></div>
+</body>
+</html>

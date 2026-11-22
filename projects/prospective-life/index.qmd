@@ -5,7 +5,6 @@ subtitle: "Protect Species Actively by LIFE"
 description: |
   A ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.
 image: /img/projects/prospectivelife.png
-categories: [LIFE, species protection, Czechia, monitoring]
 toc: false
 ---
 

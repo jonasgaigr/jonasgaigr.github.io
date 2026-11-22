@@ -5,7 +5,6 @@ subtitle: "Conservation of Natural Heritage for Life in Ukraine"
 description: |
   A preparatory LIFE project transferring Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine. It supported Ukraine's first nationwide bioblitz.
 image: /img/projects/connaturlife.png
-categories: [LIFE, Ukraine, citizen science, capacity building]
 toc: false
 ---
 

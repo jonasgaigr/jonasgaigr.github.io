@@ -5,7 +5,6 @@ subtitle: "Integrated LIFE project for the Natura 2000 network in the Czech Repu
 description: |
   The first integrated LIFE project in Czechia, known domestically as Jedna příroda, setting up a more effective system of care for Natura 2000 sites. My work sat in the monitoring and evaluation work package.
 image: /img/projects/lifen2k.png
-categories: [LIFE, Natura 2000, Czechia, monitoring]
 toc: false
 ---
 

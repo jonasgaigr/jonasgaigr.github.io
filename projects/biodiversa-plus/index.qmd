@@ -5,7 +5,6 @@ subtitle: "The European Biodiversity Partnership"
 description: |
   The Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.
 image: /img/projects/biodiversaplus.jpg
-categories: [partnership, Biodiversa+, monitoring, Horizon Europe]
 toc: false
 ---
 

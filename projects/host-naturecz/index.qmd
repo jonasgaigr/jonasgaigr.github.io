@@ -5,11 +5,12 @@ subtitle: "Condition evaluation of species and habitats across scales"
 description: |
   The codebase behind a system for evaluating the condition of species and habitats in Czechia across scales, from individual sites to the national Natura 2000 reporting picture.
 image: /img/projects/hostnaturecz.svg
-categories: [software, R, Natura 2000, Czechia, monitoring]
 toc: false
 ---
 
-**Ongoing** &nbsp;·&nbsp; *Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic*
+**Since 2020** &nbsp;·&nbsp; *Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic*
+
+The condition evaluation system started in 2020 within [LIFE-IP N2K Revisited](../life-n2k-revisited/index.qmd) and continues in [PROSPECTIVE LIFE](../prospective-life/index.qmd).
 
 `host_naturecz` holds the algorithms and data workflows behind the condition evaluation system for species and habitats within the Natura 2000 network and for taxa with active species protection tools in place. It is the engine underneath the reporting: aggregating monitoring data, applying evaluation rules consistently, and producing results that can be compared between sites, regions and reporting periods.
 

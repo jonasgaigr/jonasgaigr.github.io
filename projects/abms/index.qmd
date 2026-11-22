@@ -1,0 +1,22 @@
+---
+body-classes: page-project
+title: "ABMS pilot"
+subtitle: "Automated Biodiversity Monitoring Stations"
+description: |
+  A Biodiversa+ pilot, run in 2024 and 2025, that tested a transnational network of automated sensors for monitoring birds, bats and night-flying insects across Europe. I co-authored the pilot report.
+image: /img/projects/biodiversaplus.jpg
+toc: false
+---
+
+**2024 -- 2025** &nbsp;·&nbsp; *Co-author of the pilot report*
+
+The Automated Biodiversity Monitoring Stations (ABMS) pilot was one of the [Biodiversa+](../biodiversa-plus/index.qmd) monitoring pilots. It tested whether a transnational network of sensors can monitor biodiversity across Europe, focusing on birds, bats and night-flying insects.
+
+Around 200 sensors were deployed at 70 sampling locations in 12 EU Member States, in forest, grassland and wetland habitats: acoustic recorders for birds and bats, automated camera systems for night-flying insects, and temperature and moisture loggers. The acoustic, image and environmental data went through open-source artificial intelligence pipelines with expert verification, producing preliminary species records and indicators linked to Essential Biodiversity Variables.
+
+The pilot report concludes that automated sensor networks can support scalable, standardised biodiversity monitoring, and sets out what wider use needs: robust data infrastructure, agreed protocols, expert verification, local processing options, realistic cost planning and strong coordination across partners.
+
+## Links
+
+[Pilot report (Zenodo)](https://doi.org/10.5281/zenodo.20826248){.btn .btn-outline-primary .btn-sm role="button"}
+[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary .btn-sm role="button"}

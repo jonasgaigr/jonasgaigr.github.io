@@ -2,6 +2,7 @@
 body-classes: page-cv
 title: "Curriculum Vitae"
 subtitle: "Jonáš Gaigr"
+description: "Curriculum vitae of Jonáš Gaigr: work at the Nature Conservation Agency of the Czech Republic, projects, tools, PhD studies, conferences and talks."
 format:
   html:
     code-fold: false
@@ -16,7 +17,7 @@ date: last-modified
 ---
 
 ::: {.content-visible when-format="html"}
-[📄 Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
+[Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
 :::
 
 I am an ecologist at the Nature Conservation Agency of the Czech Republic and a PhD student at the Faculty of Environmental Sciences, Czech University of Life Sciences Prague, working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
@@ -56,6 +57,14 @@ Biodiversity monitoring of ponds: evaluating the applicability of novel methods 
 <hr>
 
 ::: {.timeline-entry}
+**2026 -- 2028** &nbsp;·&nbsp; [MetaBUG pilot](https://www.vlaanderen.be/inbo/en-GB/projects/metabug-insect-monitoring-met-malaise-vallen-en-dna-metabarcoding-evinbo)
+
+Monitoring insects with Malaise traps and DNA metabarcoding, in 13 countries. A [Biodiversa+](https://www.biodiversa.eu/) pilot.
+:::
+
+<hr>
+
+::: {.timeline-entry}
 **2024 -- 2026** &nbsp;·&nbsp; [ConNaturLIFE Ukraine](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine)
 
 Conservation of Natural Heritage for Life in Ukraine. *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
@@ -72,6 +81,14 @@ Protect Species Actively by LIFE. *LIFE22-IPN-CZ-PROSPECTIVE-LIFE/101104621*
 <hr>
 
 ::: {.timeline-entry}
+**2024 -- 2025** &nbsp;·&nbsp; [ABMS pilot](https://doi.org/10.5281/zenodo.20826248) (co-author of the pilot report)
+
+Automated Biodiversity Monitoring Stations: a transnational sensor network for birds, bats and night-flying insects in 12 EU Member States. A [Biodiversa+](https://www.biodiversa.eu/) pilot.
+:::
+
+<hr>
+
+::: {.timeline-entry}
 **2022 -- 2028** &nbsp;·&nbsp; [Biodiversa+](https://www.biodiversa.eu/)
 
 The European Biodiversity Partnership -- Horizon Europe partnership on biodiversity. *Grant agreement 101052342, HORIZON-CL6-2021-BIODIV-02*
@@ -83,6 +100,22 @@ The European Biodiversity Partnership -- Horizon Europe partnership on biodivers
 **2020 -- 2026** &nbsp;·&nbsp; [LIFE-IP N2K Revisited](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic)
 
 Integrated LIFE project for the Natura 2000 network in the Czech Republic ([Jedna příroda](https://www.jednapriroda.cz)). *LIFE17 IPE/CZ/000005*
+:::
+
+## Tools
+
+::: {.timeline-entry}
+**2020 -- present** &nbsp;·&nbsp; Condition evaluation of species and habitats ([host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/))
+
+The national system for evaluating the condition of species and habitats in the Natura 2000 network and of taxa with active species protection tools in place. Started within LIFE-IP N2K Revisited.
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**December 2025 -- present** &nbsp;·&nbsp; [ndopred](https://github.com/jonasgaigr/ndopred) (author and maintainer)
+
+An R package that turns occurrence records from NDOP into IUCN Red List metrics and categories for national and regional Red List work, with two Shiny dashboards.
 :::
 
 ## Education
@@ -131,7 +164,7 @@ Transfer project: *A Framework for Condition Evaluation of Threatened Insect Spe
 ## Talks and seminars
 
 - **Citizen science in nature conservation**, CZ-UA round table series, ConNatur LIFE, 2025
-- **TAIEX Expert Mission to Kosovo**, Habitats Directive and Birds Directive transposition, 2024
+- **TAIEX expert missions to Kosovo**, Habitats Directive and Birds Directive transposition, December 2023 and September 2026
 - **Data in Czech nature conservation**, Current trends in nature conservation course, Charles University in Prague, 2022
 
 ## Science and nature conservation communication

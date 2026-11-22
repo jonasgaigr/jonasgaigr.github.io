@@ -5,11 +5,10 @@ subtitle: "IUCN Red List metrics from Czech occurrence records"
 description: |
   An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.
 image: /img/projects/ndopred.png
-categories: [software, R, IUCN Red List, Czechia]
 toc: false
 ---
 
-**Ongoing** &nbsp;·&nbsp; *Author and maintainer*
+**Since December 2025** &nbsp;·&nbsp; *Author and maintainer*
 
 `ndopred` takes occurrence records from NDOP (*Nálezová databáze ochrany přírody*, the Nature Conservation Agency's species occurrence database) and derives the metrics that Red List assessment actually turns on: extent of occurrence, area of occupancy, and population trends, following the IUCN criteria (v3.1) and the 2024 guidelines.
 

@@ -1,9 +1,10 @@
 ---
 title: "Get in touch"
+description: "Contact Jonáš Gaigr about biodiversity trends in Czechia, condition evaluation of protected species, pond monitoring and dung beetles."
 about:
   id: contact-heading
   template: solana
-  image: img/jonas_gaigr.jpg
+  image: img/jonas_gaigr.webp
   image-shape: round
   links:
     - icon: envelope

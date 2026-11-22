@@ -4,8 +4,7 @@ title: "BiodivPond pilot"
 subtitle: "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use"
 description: |
   A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.
-image: /img/projects/biodivpond.png
-categories: [pilot, Biodiversa+, ponds, eDNA, citizen science]
+image: /img/home/biodivpond-logo.png
 toc: false
 ---
 
