@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - img/home/*
 
 website:
   title: "Jonáš Gaigr"
@@ -16,25 +18,16 @@ website:
 
   repo-url: "https://github.com/jonasgaigr/jonasgaigr.github.io"
 
-  sidebar:
-    pinned: true
-    align: center
-    style: "docked"
-    collapse-level: 1
-    contents:
-      - text: "Home"
-        href: index.qmd
-
+  navbar:
+    title: "Jonáš Gaigr"
+    collapse-below: lg
+    right:
       - text: "Projects"
         href: projects.qmd
-
-      - section: "About me"
-        contents:
-          - text: "CV"
-            href: cv.qmd
-          - text: "Publications"
-            href: publications.qmd
-
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
       - text: "Get in touch"
         href: contact.qmd
 
@@ -46,4 +39,5 @@ format:
     css: styles.css
     toc: true
     toc-depth: 2
+    title-block-banner: true
     link-external-newwindow: true

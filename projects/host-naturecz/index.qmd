@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "host_naturecz"
 subtitle: "Condition evaluation of species and habitats across scales"
 description: |

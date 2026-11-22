@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "ConNaturLIFE Ukraine"
 subtitle: "Conservation of Natural Heritage for Life in Ukraine"
 description: |

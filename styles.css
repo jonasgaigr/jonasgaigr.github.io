@@ -1,15 +1,587 @@
-/* small supplementary tweaks that don't belong in the bootstrap scss theme */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap");
 
-.quarto-title-banner {
-  background-color: #f2f1ea;
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+
+:root {
+  --pond-0: #14261f;            /* deepest water */
+  --pond-1: #1f3f36;            /* band tone 1 */
+  --pond-2: #2a5045;            /* band tone 2 */
+  --pond-3: #24473d;            /* band tone 3 */
+  --paper: #fdfcf9;
+  --paper-ink: #ecebe2;         /* text on dark */
+  --paper-muted: rgba(236, 235, 226, 0.74);
+  --hairline: rgba(236, 235, 226, 0.18);
+  --newt: #f0b04f;              /* newt-belly orange accent */
+  --moss: #7a9e7e;
+  --slant: min(5vw, 4.5rem);    /* height of the diagonal band edges */
+  --heading: "Raleway", "Source Sans 3", Helvetica, sans-serif;
 }
 
-#hero-heading .about-links .about-link {
+/* ==========================================================================
+   Shared: navbar, headings
+   ========================================================================== */
+
+.navbar {
+  background-color: rgba(31, 63, 54, 0.94);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.navbar .navbar-title,
+.navbar .nav-link {
+  font-family: var(--heading);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.navbar .navbar-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+h1, h2, h3, .h1, .h2, .h3,
+.navbar, .kicker, .banner-tagline, .window p {
+  font-family: var(--heading);
+  /* raleway defaults to old-style figures; keep "2000" level */
+  font-variant-numeric: lining-nums;
+}
+
+/* ==========================================================================
+   Inner pages: photo title banner
+   ========================================================================== */
+
+.quarto-title-banner {
+  --banner-photo: url("img/home/bg-trebonsko.jpg");
+  background-color: var(--pond-1);
+  background-image:
+    linear-gradient(to bottom, rgba(20, 38, 31, 0.55), rgba(20, 38, 31, 0.82)),
+    var(--banner-photo);
+  background-size: cover;
+  background-position: center 60%;
+  color: var(--paper-ink);
+  padding-top: 5.5rem;
+  padding-bottom: 3rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--slant)));
+  padding-bottom: calc(3rem + var(--slant));
+}
+
+body.page-cv .quarto-title-banner { --banner-photo: url("img/home/field-team.jpg"); background-position: center 40%; }
+body.page-projects .quarto-title-banner { --banner-photo: url("img/home/pond-aerial.jpg"); }
+body.page-publications .quarto-title-banner { --banner-photo: url("img/home/pond-vrbenske.jpg"); }
+body.page-project .quarto-title-banner { --banner-photo: url("img/home/new-pond.jpg"); }
+
+.quarto-title-banner .title,
+.quarto-title-banner h1 {
+  color: #fff;
+  font-family: var(--heading);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.quarto-title-banner .subtitle,
+.quarto-title-banner .description,
+.quarto-title-banner .quarto-title-meta-heading,
+.quarto-title-banner .quarto-title-meta-contents {
+  color: var(--paper-muted);
+}
+
+.quarto-title-banner .quarto-category {
+  color: var(--paper-ink);
+  border-color: var(--hairline);
+}
+
+/* ==========================================================================
+   Homepage
+   ========================================================================== */
+
+body.home {
+  background-color: var(--pond-0);
+  background-image:
+    linear-gradient(to top, rgba(20, 38, 31, 0.55), rgba(20, 38, 31, 0.35)),
+    url("img/home/bg-trebonsko.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--paper-ink);
+}
+
+/* the navbar floats over the banner: start the page under it */
+body.home #quarto-content { margin-top: 0 !important; padding-top: 0 !important; }
+body.home main.content { margin: 0; padding: 0; max-width: none; }
+
+body.home #quarto-header .navbar {
+  background-color: rgba(20, 38, 31, 0.35);
+  box-shadow: none;
+}
+
+body.home a { color: var(--paper-ink); }
+
+/* the banner already says the name; drop quarto's title block */
+body.home #title-block-header { display: none; }
+
+/* quarto pads every direct child of #quarto-content (id specificity);
+   restate the section paddings at that weight */
+#quarto-content > .banner { padding: 7rem 16px 6rem; }
+#quarto-content > .band { padding: calc(4.5rem + var(--slant)) 16px; }
+#quarto-content > .window { padding: calc(8rem + var(--slant)) 16px; }
+#quarto-content > .contact-band { padding: calc(6rem + var(--slant)) 16px 6rem; }
+
+@media (max-width: 860px) {
+  #quarto-content > .band { padding: calc(3.5rem + var(--slant)) 16px; }
+  #quarto-content > .window { padding: calc(5rem + var(--slant)) 16px; }
+}
+
+/* ---- banner ---- */
+
+.banner {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 7rem 16px 6rem;
+}
+
+.banner-inner { max-width: 46rem; }
+
+.portrait {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.12);
+  margin-bottom: 1.8rem;
+}
+
+.banner-title {
+  font-family: var(--heading);
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: clamp(1.7rem, 4.6vw, 2.9rem);
+  line-height: 1.15;
+  padding-bottom: 0.45em;
+  margin-bottom: 0.7em;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.28);
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.35);
+}
+
+.banner-tagline {
+  font-family: var(--heading);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: clamp(0.82rem, 1.6vw, 1rem);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45);
+  margin-bottom: 2rem;
+}
+
+.banner-links,
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.banner-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-bottom: 2.6rem;
+}
+
+.banner-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  background: rgba(20, 38, 31, 0.25);
+  color: #fff;
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.banner-links a:hover,
+.banner-links a:focus-visible {
+  background: var(--newt);
+  border-color: var(--newt);
+  color: var(--pond-0);
+}
+
+.scroll-cue {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--heading);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.72rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.scroll-cue .bi { font-size: 1.2rem; animation: cue 2.2s ease-in-out infinite; }
+
+@keyframes cue {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-cue .bi { animation: none; }
+}
+
+/* ---- slanted colour bands ---- */
+
+.band {
+  --tl: 0px; --tr: 0px; --bl: 0px; --br: 0px;
+  position: relative;
+  clip-path: polygon(0 var(--tl), 100% var(--tr), 100% calc(100% - var(--br)), 0 calc(100% - var(--bl)));
+  padding: calc(4.5rem + var(--slant)) 16px;
+}
+
+/* edge direction: "up" rises to the right, "down" falls to the right.
+   a band's top must match the bottom of the band above it. */
+.band.top-up   { --tl: var(--slant); }
+.band.top-down { --tr: var(--slant); }
+.band.bot-up   { --br: var(--slant); }
+.band.bot-down { --bl: var(--slant); }
+
+.band + .band { margin-top: calc(-1 * var(--slant)); }
+
+.tone-1 { background-color: var(--pond-1); }
+.tone-2 { background-color: var(--pond-2); }
+.tone-3 { background-color: var(--pond-3); }
+
+.band-inner {
+  max-width: 68rem;
+  margin: 0 auto;
+}
+
+.band-inner.narrow { max-width: 46rem; }
+
+.kicker {
+  display: block;
+  font-family: var(--heading);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  color: var(--newt);
+  margin-bottom: 0.7rem;
+}
+
+body.home h2.major,
+body.home .major h2,
+body.home h2 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: clamp(1.35rem, 2.6vw, 1.8rem);
+  line-height: 1.25;
+  border-bottom: 2px solid var(--hairline);
+  padding-bottom: 0.55em;
+  margin: 0 0 1.1em;
+}
+
+body.home h3 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.05rem;
+  margin: 1.1rem 0 0.8rem;
+}
+
+/* quarto adds anchor links to headings; keep them out of the design */
+body.home .anchorjs-link { display: none; }
+
+body.home p {
+  color: var(--paper-muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+body.home p a:not(.button):not(.more) {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.45);
+}
+
+body.home p a:not(.button):not(.more):hover {
+  color: var(--newt);
+  border-bottom-color: var(--newt);
+}
+
+body.home strong { color: #fff; font-weight: 600; }
+
+a.button {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px var(--hairline);
+  font-family: var(--heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+  color: #fff !important;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+a.button:hover,
+a.button:focus-visible {
+  background-color: var(--newt);
+  box-shadow: inset 0 0 0 2px var(--newt);
+  color: var(--pond-0) !important;
+}
+
+a.more {
+  font-family: var(--heading);
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+  color: #fff !important;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+  padding-bottom: 0.15rem;
+}
+
+a.more::after {
+  content: "\2192";
+  display: inline-block;
+  margin-left: 0.5em;
+  transition: transform 0.2s ease;
+}
+
+a.more:hover { color: var(--newt) !important; border-bottom-color: var(--newt); }
+a.more:hover::after { transform: translateX(4px); }
+
+/* ---- spotlights: photo on one side, text on the other ---- */
+
+.spotlight .band-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.spotlight .band-inner > p:first-child { margin: 0; }
+
+.spotlight.flip .band-inner > p:first-child { order: 2; }
+
+a.spot-image {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+a.spot-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+a.spot-image:hover img { transform: scale(1.04); }
+
+.spot-content p:last-child { margin-bottom: 0; }
+
+/* ---- photo window: the band is transparent, its own fixed photo shows ---- */
+
+.window {
+  position: relative;
+  margin-top: calc(-1 * var(--slant));
+  padding: calc(8rem + var(--slant)) 16px;
+  text-align: center;
+  background-color: var(--pond-0);
+  background-image:
+    linear-gradient(rgba(20, 38, 31, 0.5), rgba(20, 38, 31, 0.6)),
+    url("img/home/band-forest-pond.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.window + .band { margin-top: calc(-1 * var(--slant)); }
+
+.window-inner { max-width: 44rem; margin: 0 auto; }
+
+body.home .window p {
+  font-family: var(--heading);
+  font-weight: 300;
+  font-size: clamp(1.25rem, 2.6vw, 1.75rem);
+  line-height: 1.5;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
+}
+
+body.home .window p a.button { text-shadow: none; }
+
+/* ---- feature tiles ---- */
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.feature {
+  padding: 2.4rem 2rem 2.4rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.feature:nth-child(2n) {
+  padding-left: 2rem;
+  padding-right: 0;
+  border-left: 1px solid var(--hairline);
+}
+
+.feature > p:first-child { margin: 0; }
+
+.feature-image {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  aspect-ratio: 16 / 7;
+}
+
+.feature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+a.feature-image:hover img { transform: scale(1.04); }
+
+.feature-image.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--hairline);
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0 12px, transparent 12px 24px),
+    rgba(20, 38, 31, 0.35);
+}
+
+.placeholder-label {
+  font-family: var(--heading);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--paper-muted);
+  padding: 0 1rem;
+  text-align: center;
+}
+
+body.home .feature p { font-size: 1rem; }
+
+/* ---- contact over a photo ---- */
+
+.contact-band {
+  margin-top: calc(-1 * var(--slant));
+  padding: calc(6rem + var(--slant)) 16px 6rem;
+  background-color: var(--pond-0);
+  background-image:
+    linear-gradient(rgba(20, 38, 31, 0.72), rgba(20, 38, 31, 0.88)),
+    url("img/home/footer-pond.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-links { margin-top: 1.8rem; }
+
+.contact-links li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.contact-links li:last-child { border-bottom: 1px solid var(--hairline); }
+
+.contact-links .bi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  border: 2px solid var(--hairline);
+  color: var(--newt);
+}
+
+.contact-links a {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 1.02rem;
+  overflow-wrap: anywhere;
+}
+
+.contact-links a:hover { color: var(--newt) !important; }
+
+body.home .nav-footer {
+  border-top: 1px solid var(--hairline);
+}
+
+/* ---- small screens ---- */
+
+@media (max-width: 860px) {
+  .spotlight .band-inner { grid-template-columns: 1fr; gap: 1.8rem; }
+  .spotlight.flip .band-inner > p:first-child { order: 0; }
+  .features { grid-template-columns: 1fr; }
+  .feature,
+  .feature:nth-child(2n) { padding: 2rem 0; border-left: 0; }
+  .band { padding-top: calc(3.5rem + var(--slant)); padding-bottom: calc(3.5rem + var(--slant)); }
+}
+
+/* fixed backgrounds are janky or ignored on touch devices */
+@media (hover: none), (max-width: 860px) {
+  body.home,
+  .window,
+  .contact-band { background-attachment: scroll; }
+}
+
+/* ==========================================================================
+   Existing components
+   ========================================================================== */
+
+#hero-heading .about-links .about-link,
+#contact-heading .about-links .about-link {
   border-color: #2f5d50;
   color: #2f5d50;
 }
 
-#hero-heading .about-links .about-link:hover {
+#hero-heading .about-links .about-link:hover,
+#contact-heading .about-links .about-link:hover {
   background-color: #2f5d50;
   color: #fdfcf9;
 }
@@ -19,7 +591,7 @@
 }
 
 /* bootstrap-icons has no ORCID glyph; swap in the official iD mark */
-.about-link i.bi-orcid::before {
+i.bi-orcid::before {
   content: "";
   display: inline-block;
   width: 1em;

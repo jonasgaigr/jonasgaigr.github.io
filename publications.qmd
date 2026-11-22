@@ -1,4 +1,5 @@
 ---
+body-classes: page-publications
 title: "Publications"
 format:
   html:

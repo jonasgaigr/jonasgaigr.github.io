@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "Biodiversa+"
 subtitle: "The European Biodiversity Partnership"
 description: |

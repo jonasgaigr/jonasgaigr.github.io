@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "LIFE-IP N2K Revisited"
 subtitle: "Integrated LIFE project for the Natura 2000 network in the Czech Republic"
 description: |

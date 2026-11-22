@@ -1,4 +1,5 @@
 ---
+body-classes: page-projects
 title: "Projects"
 description: |
   Projects and tools I work on, in biodiversity monitoring and species conservation.

@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "PROSPECTIVE LIFE"
 subtitle: "Protect Species Actively by LIFE"
 description: |

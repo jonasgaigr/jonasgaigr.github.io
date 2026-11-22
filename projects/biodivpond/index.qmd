@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "BiodivPond pilot"
 subtitle: "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use"
 description: |

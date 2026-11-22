@@ -1,4 +1,5 @@
 ---
+body-classes: page-project
 title: "ndopred"
 subtitle: "IUCN Red List metrics from Czech occurrence records"
 description: |

@@ -1,4 +1,5 @@
 ---
+body-classes: page-cv
 title: "Curriculum Vitae"
 subtitle: "Jonáš Gaigr"
 format:

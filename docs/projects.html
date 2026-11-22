@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -48,13 +49,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-25b1799137782ab87ca5c918e57a6c11.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-25bc88806963e657f88f348aaa73f857.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-90f1431f3987ae91d5da75e4ec882e12.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -167,119 +168,84 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-fixed page-projects fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects.html">Projects</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Jonáš Gaigr</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Get in touch</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Projects</h1>
+                  <div>
+        <div class="description">
+          <p>Projects and tools I work on, in biodiversity monitoring and species conservation.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Jonáš Gaigr</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">About me</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cv.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CV</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publications</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get in touch</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
-
-<div>
-  <div class="description">
-    <p>Projects and tools I work on, in biodiversity monitoring and species conservation.</p>
-  </div>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <section id="current-projects" class="level2">
 <h2 class="anchored" data-anchor-id="current-projects">Current projects</h2>
 <div id="listing-current" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGlsb3QlMkNCaW9kaXZlcnNhJTJCJTJDcG9uZHMlMkNlRE5BJTJDY2l0aXplbiUyMHNjaWVuY2U=" data-listing-file-modified-sort="1788757220066" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
+<div class="g-col-1" data-index="0" data-categories="cGlsb3QlMkNCaW9kaXZlcnNhJTJCJTJDcG9uZHMlMkNlRE5BJTJDY2l0aXplbiUyMHNjaWVuY2U=" data-listing-file-modified-sort="1795128837491" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
 <a href="./projects/biodivpond/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -295,7 +261,7 @@ BiodivPond pilot
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cGFydG5lcnNoaXAlMkNCaW9kaXZlcnNhJTJCJTJDbW9uaXRvcmluZyUyQ0hvcml6b24lMjBFdXJvcGU=" data-listing-file-modified-sort="1788757220017" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+<div class="g-col-1" data-index="1" data-categories="cGFydG5lcnNoaXAlMkNCaW9kaXZlcnNhJTJCJTJDbW9uaXRvcmluZyUyQ0hvcml6b24lMjBFdXJvcGU=" data-listing-file-modified-sort="1795128837404" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
 <a href="./projects/biodiversa-plus/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -311,7 +277,7 @@ Biodiversa+
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="TElGRSUyQ3NwZWNpZXMlMjBwcm90ZWN0aW9uJTJDQ3plY2hpYSUyQ21vbml0b3Jpbmc=" data-listing-file-modified-sort="1788757220360" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="g-col-1" data-index="2" data-categories="TElGRSUyQ3NwZWNpZXMlMjBwcm90ZWN0aW9uJTJDQ3plY2hpYSUyQ21vbml0b3Jpbmc=" data-listing-file-modified-sort="1795128837940" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
 <a href="./projects/prospective-life/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -327,7 +293,7 @@ PROSPECTIVE LIFE
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="c29mdHdhcmUlMkNSJTJDSVVDTiUyMFJlZCUyMExpc3QlMkNDemVjaGlh" data-listing-file-modified-sort="1788757220301" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<div class="g-col-1" data-index="3" data-categories="c29mdHdhcmUlMkNSJTJDSVVDTiUyMFJlZCUyMExpc3QlMkNDemVjaGlh" data-listing-file-modified-sort="1795128837840" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
 <a href="./projects/ndopred/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -343,7 +309,7 @@ ndopred
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="c29mdHdhcmUlMkNSJTJDTmF0dXJhJTIwMjAwMCUyQ0N6ZWNoaWElMkNtb25pdG9yaW5n" data-listing-file-modified-sort="1788730803991" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="g-col-1" data-index="4" data-categories="c29mdHdhcmUlMkNSJTJDTmF0dXJhJTIwMjAwMCUyQ0N6ZWNoaWElMkNtb25pdG9yaW5n" data-listing-file-modified-sort="1795128837672" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
 <a href="./projects/host-naturecz/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -367,7 +333,7 @@ host_naturecz
 <h2 class="anchored" data-anchor-id="past-projects">Past projects</h2>
 <div id="listing-past" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TElGRSUyQ1VrcmFpbmUlMkNjaXRpemVuJTIwc2NpZW5jZSUyQ2NhcGFjaXR5JTIwYnVpbGRpbmc=" data-listing-file-modified-sort="1788757220183" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
+<div class="g-col-1" data-index="0" data-categories="TElGRSUyQ1VrcmFpbmUlMkNjaXRpemVuJTIwc2NpZW5jZSUyQ2NhcGFjaXR5JTIwYnVpbGRpbmc=" data-listing-file-modified-sort="1795128837580" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
 <a href="./projects/connatur-life/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -383,7 +349,7 @@ ConNaturLIFE Ukraine
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="TElGRSUyQ05hdHVyYSUyMDIwMDAlMkNDemVjaGlhJTJDbW9uaXRvcmluZw==" data-listing-file-modified-sort="1788757220243" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+<div class="g-col-1" data-index="1" data-categories="TElGRSUyQ05hdHVyYSUyMDIwMDAlMkNDemVjaGlhJTJDbW9uaXRvcmluZw==" data-listing-file-modified-sort="1795128837758" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <a href="./projects/life-n2k-revisited/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
