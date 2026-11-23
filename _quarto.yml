@@ -1,40 +1,59 @@
 project:
   type: website
   output-dir: docs
+  # before: publications.bib (plus new works from ORCID) -> _publications.qmd, _recent.qmd
+  pre-render: _tools/pubs.py
+  # after: the "Last updated" date in the footer
+  post-render: _tools/stamp.py
+  # leading slash: only these folders at the root (not _proposals/*/img/home)
+  resources:
+    - /img/home/*
+    - /js/*
+    - /img/jonas_gaigr.jpg
 
 website:
   title: "Jonáš Gaigr"
-  description: "Personal website of Jonáš Gaigr, ecologist and conservationist at the Nature Conservation Agency of the Czech Republic and PhD student at the Faculty of Environmental Sciences, Czech University of Life Sciences Prague."
+  description: "Jonáš Gaigr, ecologist at the Nature Conservation Agency of the Czech Republic and PhD student at the Czech University of Life Sciences Prague: biodiversity monitoring, amphibians, ponds and Natura 2000."
   site-url: "https://jonasgaigr.github.io"
-  favicon: img/jonas_gaigr.jpg
-  image: img/jonas_gaigr.jpg
+  favicon: img/favicon.png
+  image: img/og-card.jpg
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
   page-navigation: false
 
   page-footer:
-    left: "&copy; 2026 Jonáš Gaigr"
-    right: "This page is built with 🌿 and [Quarto](https://quarto.org/)."
+    left: "&copy; 2026 Jonáš Gaigr &middot; Last updated RENDERDATE"
+    center: "Built with [Quarto](https://quarto.org/)"
+    right:
+      - icon: envelope
+        href: mailto:jonas.gaigr@gmail.com
+        aria-label: Email
+      - icon: github
+        href: https://github.com/jonasgaigr
+        aria-label: GitHub
+      - icon: orcid
+        href: https://orcid.org/0009-0004-0267-1382
+        aria-label: ORCID
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jonasgaigr/
+        aria-label: LinkedIn
+      - icon: bluesky
+        href: https://bsky.app/profile/jonasgaigr.bsky.social
+        aria-label: Bluesky
 
   repo-url: "https://github.com/jonasgaigr/jonasgaigr.github.io"
 
-  sidebar:
-    pinned: true
-    align: center
-    style: "docked"
-    collapse-level: 1
-    contents:
-      - text: "Home"
-        href: index.qmd
-
+  navbar:
+    title: "Jonáš Gaigr"
+    collapse-below: lg
+    right:
       - text: "Projects"
         href: projects.qmd
-
-      - section: "About me"
-        contents:
-          - text: "CV"
-            href: cv.qmd
-          - text: "Publications"
-            href: publications.qmd
-
+      - text: "CV"
+        href: cv.qmd
+      - text: "Publications"
+        href: publications.qmd
       - text: "Get in touch"
         href: contact.qmd
 
@@ -46,4 +65,13 @@ format:
     css: styles.css
     toc: true
     toc-depth: 2
+    title-block-banner: true
     link-external-newwindow: true
+    # internal = this site's own pages (and local files when previewing);
+    # other sites under jonasgaigr.github.io/<repo>/ open in a new window
+    link-external-filter: '^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)'
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">

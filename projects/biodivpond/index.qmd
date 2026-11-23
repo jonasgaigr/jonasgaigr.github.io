@@ -1,10 +1,10 @@
 ---
+body-classes: page-project
 title: "BiodivPond pilot"
 subtitle: "Biodiversity monitoring of ponds: evaluating the applicability of novel methods and identifying obstacles to wide use"
 description: |
   A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.
-image: /img/projects/biodivpond.png
-categories: [pilot, Biodiversa+, ponds, eDNA, citizen science]
+image: /img/home/biodivpond-logo.png
 toc: false
 ---
 
@@ -22,8 +22,8 @@ Outputs include a comparative evaluation of eDNA, passive acoustic monitoring an
 
 *Funded through the European Biodiversity Partnership (Biodiversa+), call HORIZON-CL6-2021-BIODIV-02, WP 2.6.8.*
 
-## Links
-
-[Pilot website](https://biodivpond.github.io){.btn .btn-outline-primary .btn-sm role="button"}
-[Biodiversa+ pilot page](https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/){.btn .btn-outline-primary .btn-sm role="button"}
-[GitHub](https://github.com/BiodivPond){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[Pilot website](https://biodivpond.github.io){.btn .btn-outline-primary role="button"}
+[Biodiversa+ pilot page](https://www.biodiversa.eu/biodiversity-monitoring/pilots/biodivpond/){.btn .btn-outline-primary role="button"}
+[GitHub](https://github.com/BiodivPond){.btn .btn-outline-primary role="button"}
+:::

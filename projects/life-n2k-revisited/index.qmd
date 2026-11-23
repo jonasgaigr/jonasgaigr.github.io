@@ -1,10 +1,10 @@
 ---
+body-classes: page-project
 title: "LIFE-IP N2K Revisited"
 subtitle: "Integrated LIFE project for the Natura 2000 network in the Czech Republic"
 description: |
   The first integrated LIFE project in Czechia, known domestically as Jedna příroda, setting up a more effective system of care for Natura 2000 sites. My work sat in the monitoring and evaluation work package.
 image: /img/projects/lifen2k.png
-categories: [LIFE, Natura 2000, Czechia, monitoring]
 toc: false
 ---
 
@@ -16,8 +16,8 @@ This is where my work on condition evaluation began: revising monitoring methodo
 
 *LIFE17 IPE/CZ/000005.*
 
-## Links
-
-[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic){.btn .btn-outline-primary .btn-sm role="button"}
-[Jedna příroda](https://www.jednapriroda.cz){.btn .btn-outline-primary .btn-sm role="button"}
-[Nature Conservation Agency: LIFE](https://aopk.gov.cz/web/en/life){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic){.btn .btn-outline-primary role="button"}
+[Jedna příroda](https://www.jednapriroda.cz){.btn .btn-outline-primary role="button"}
+[Nature Conservation Agency: LIFE](https://aopk.gov.cz/web/en/life){.btn .btn-outline-primary role="button"}
+:::

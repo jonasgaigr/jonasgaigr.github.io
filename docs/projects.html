@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Projects and tools I work on, in biodiversity monitoring and species conservation.">
+<meta name="description" content="Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational biodiversity monitoring, Natura 2000 network and threatened species in Czechia, nation-wide tools, and sharing Czech experience.">
 
 <title>Projects – Jonáš Gaigr</title>
 <style>
@@ -31,30 +31,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./img/jonas_gaigr.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<link href="./img/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-25b1799137782ab87ca5c918e57a6c11.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-191003b1ba6d34ac649f2168eee54564.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-25bc88806963e657f88f348aaa73f857.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-291730606bdf2bb351745db310fc49f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -76,333 +75,164 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Source+Sans+3:ital,wght@0,400;0,600;1,400&amp;display=swap">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current'] = new List('listing-current', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-past .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-past'] = new List('listing-past', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Projects – Jonáš Gaigr">
+<meta property="og:description" content="Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational biodiversity monitoring, Natura 2000 network and threatened species in Czechia, nation-wide tools, and sharing Czech experience.">
+<meta property="og:image" content="https://jonasgaigr.github.io/img/og-card.jpg">
+<meta property="og:site_name" content="Jonáš Gaigr">
+<meta name="twitter:title" content="Projects – Jonáš Gaigr">
+<meta name="twitter:description" content="Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational biodiversity monitoring, Natura 2000 network and threatened species in Czechia, nation-wide tools, and sharing Czech experience.">
+<meta name="twitter:image" content="https://jonasgaigr.github.io/img/og-card.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-fixed page-projects fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./projects.html">Projects</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Jonáš Gaigr</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Get in touch</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Projects</h1>
+                  <div>
+        <div class="description">
+          Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational biodiversity monitoring, Natura 2000 network and threatened species in Czechia, nation-wide tools, and sharing Czech experience.
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Jonáš Gaigr</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./projects.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">About me</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cv.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CV</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./publications.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publications</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./contact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get in touch</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
 
-<div>
-  <div class="description">
-    <p>Projects and tools I work on, in biodiversity monitoring and species conservation.</p>
+
+
+
+<p>Ten projects, tools and missions in four clusters, on one time line. Each name opens its page.</p>
+<section id="four-clusters-2020-to-2033" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="four-clusters-2020-to-2033">Four clusters, 2020 to 2033</h2>
+<div class="column-page pj-page">
+<!--
+  The project time line, shared by the homepage and the Projects page.
+
+  Each bar is placed by year: --s is the start, --e the last year (inclusive),
+  so "--s:2026;--e:2028" runs from January 2026 to the end of 2028. Months are
+  decimals: December 2025 is 2025.917 (11/12), the middle of September 2026
+  is 2026.708 (8.5/12).
+  Ongoing work: class "on" and no --e; the bar runs to today and fades out.
+  Single missions: a diamond, <span class="pj-dia" style="--s:..."></span>.
+  The axis runs from 2020 over 14 years (--y0 and --span in styles.css);
+  "now" is set to today's date by js/timeline.js.
+-->
+<div class="pj-wrap">
+  <ul class="pj-key" aria-label="How to read the time line">
+    <li><span class="pj-k-bar" aria-hidden="true"></span>when it runs</li>
+    <li><span class="pj-k-bar on" aria-hidden="true"></span>ongoing</li>
+    <li><span class="pj-k-dia" aria-hidden="true"></span>a single mission</li>
+    <li><span class="pj-k-now" aria-hidden="true"></span>now</li>
+  </ul>
+
+  <div class="pj" role="group" aria-label="Projects by cluster, 2020 to 2033">
+    <div class="pj-axis" aria-hidden="true">
+      <span style="--y:2020">2020</span><span style="--y:2024">2024</span><span style="--y:2028">2028</span><span style="--y:2032">2032</span>
+    </div>
+
+    <section class="pj-group" aria-labelledby="pj-c1">
+      <h3 id="pj-c1" class="anchored">Transnational biodiversity monitoring</h3>
+      <p class="pj-why">Biodiversa+ pilots that test novel monitoring methods across countries: automated stations, insects by DNA metabarcoding, and ponds.</p>
+      <ul>
+        <li><a href="projects/biodiversa-plus/index.html"><span class="pj-name"><b>Biodiversa+</b><span>Monitoring work stream · 2022 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2022;--e:2028"></span></span></a></li>
+        <li><a href="projects/abms/index.html"><span class="pj-name"><b>ABMS pilot</b><span>Automated monitoring stations · 2024 to 2025</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2025"></span></span></a></li>
+        <li><a href="projects/biodivpond/index.html"><span class="pj-name"><b>BiodivPond pilot</b><span>Coordinator · 2026 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2026;--e:2028"></span></span></a></li>
+        <li><a href="projects/metabug/index.html"><span class="pj-name"><b>MetaBUG pilot</b><span>Insects, Malaise traps and DNA metabarcoding · 2026 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2026;--e:2028"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c2">
+      <h3 id="pj-c2" class="anchored">Natura 2000 network and threatened species in Czechia</h3>
+      <p class="pj-why">Two integrated LIFE projects. My work on condition evaluation began in the first and continues in the second.</p>
+      <ul>
+        <li><a href="projects/life-n2k-revisited/index.html"><span class="pj-name"><b>LIFE-IP N2K Revisited</b><span>2020 to 2026</span></span><span class="pj-track"><span class="pj-bar" style="--s:2020;--e:2026"></span></span></a></li>
+        <li><a href="projects/prospective-life/index.html"><span class="pj-name"><b>PROSPECTIVE LIFE</b><span>Evaluation framework · 2024 to 2033</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2033"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c3">
+      <h3 id="pj-c3" class="anchored">Nation-wide tools</h3>
+      <p class="pj-why">The condition evaluation system started within LIFE-IP N2K Revisited in 2020; ndopred followed in December 2025. Both are ongoing.</p>
+      <ul>
+        <li><a href="projects/host-naturecz/index.html"><span class="pj-name"><b>Condition evaluation</b><span>host_naturecz · since 2020</span></span><span class="pj-track"><span class="pj-bar on" style="--s:2020"></span></span></a></li>
+        <li><a href="projects/ndopred/index.html"><span class="pj-name"><b>ndopred</b><span>Author and maintainer · since December 2025</span></span><span class="pj-track"><span class="pj-bar on" style="--s:2025.917"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c4">
+      <h3 id="pj-c4" class="anchored">Sharing Czech experience</h3>
+      <p class="pj-why">Natura 2000, monitoring and data systems, shared with Ukrainian conservation authorities, and with Kosovo on transposing the Habitats and Birds Directives.</p>
+      <ul>
+        <li><a href="projects/connatur-life/index.html"><span class="pj-name"><b>ConNaturLIFE Ukraine</b><span>Monitoring and citizen science · 2024 to 2026</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2026"></span></span></a></li>
+        <li><a href="cv.html#talks-and-seminars"><span class="pj-name"><b>TAIEX expert missions to Kosovo</b><span>December 2023 and September 2026</span></span><span class="pj-track"><span class="pj-dia" style="--s:2023.958"></span><span class="pj-dia" style="--s:2026.708"></span></span></a></li>
+      </ul>
+    </section>
   </div>
 </div>
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="current-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-projects">Current projects</h2>
-<div id="listing-current" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGlsb3QlMkNCaW9kaXZlcnNhJTJCJTJDcG9uZHMlMkNlRE5BJTJDY2l0aXplbiUyMHNjaWVuY2U=" data-listing-file-modified-sort="1788757220066" data-listing-reading-time-sort="1" data-listing-word-count-sort="184">
-<a href="./projects/biodivpond/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/biodivpond.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-BiodivPond pilot
-</h5>
-<div class="card-text listing-description delink">
-<p>A transnational Biodiversa+ pilot building a European pond monitoring network. I coordinate the pilot, which combines eDNA, passive acoustic monitoring and field surveys with a citizen-science scheme across hundreds of ponds.</p>
 </div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cGFydG5lcnNoaXAlMkNCaW9kaXZlcnNhJTJCJTJDbW9uaXRvcmluZyUyQ0hvcml6b24lMjBFdXJvcGU=" data-listing-file-modified-sort="1788757220017" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./projects/biodiversa-plus/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/biodiversaplus.jpg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Biodiversa+
-</h5>
-<div class="card-text listing-description delink">
-<p>The Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TElGRSUyQ3NwZWNpZXMlMjBwcm90ZWN0aW9uJTJDQ3plY2hpYSUyQ21vbml0b3Jpbmc=" data-listing-file-modified-sort="1788757220360" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
-<a href="./projects/prospective-life/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/prospectivelife.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-PROSPECTIVE LIFE
-</h5>
-<div class="card-text listing-description delink">
-<p>A ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="c29mdHdhcmUlMkNSJTJDSVVDTiUyMFJlZCUyMExpc3QlMkNDemVjaGlh" data-listing-file-modified-sort="1788757220301" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
-<a href="./projects/ndopred/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/ndopred.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ndopred
-</h5>
-<div class="card-text listing-description delink">
-<p>An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="c29mdHdhcmUlMkNSJTJDTmF0dXJhJTIwMjAwMCUyQ0N6ZWNoaWElMkNtb25pdG9yaW5n" data-listing-file-modified-sort="1788730803991" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
-<a href="./projects/host-naturecz/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/hostnaturecz.svg" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-host_naturecz
-</h5>
-<div class="card-text listing-description delink">
-<p>The codebase behind a system for evaluating the condition of species and habitats in Czechia across scales, from individual sites to the national Natura 2000 reporting picture.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="past-projects" class="level2">
-<h2 class="anchored" data-anchor-id="past-projects">Past projects</h2>
-<div id="listing-past" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TElGRSUyQ1VrcmFpbmUlMkNjaXRpemVuJTIwc2NpZW5jZSUyQ2NhcGFjaXR5JTIwYnVpbGRpbmc=" data-listing-file-modified-sort="1788757220183" data-listing-reading-time-sort="1" data-listing-word-count-sort="154">
-<a href="./projects/connatur-life/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/connaturlife.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ConNaturLIFE Ukraine
-</h5>
-<div class="card-text listing-description delink">
-<p>A preparatory LIFE project transferring Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine. It supported Ukraine’s first nationwide bioblitz.</p>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TElGRSUyQ05hdHVyYSUyMDIwMDAlMkNDemVjaGlhJTJDbW9uaXRvcmluZw==" data-listing-file-modified-sort="1788757220243" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
-<a href="./projects/life-n2k-revisited/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left borderless">
-<p class="card-img-top">
-<img loading="lazy" src="./img/projects/lifen2k.png" class="thumbnail-image card-img" style="height: 200px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LIFE-IP N2K Revisited
-</h5>
-<div class="card-text listing-description delink">
-<p>The first integrated LIFE project in Czechia, known domestically as Jedna příroda, setting up a more effective system of care for Natura 2000 sites. My work sat in the monitoring and evaluation work package.</p>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
 
 
 </section>
@@ -481,7 +311,7 @@ LIFE-IP N2K Revisited
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jonasgaigr\.github\.io");
+        var filterRegex = new RegExp("^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -817,16 +647,48 @@ LIFE-IP N2K Revisited
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Jonáš Gaigr</p>
+<p>© 2026 Jonáš Gaigr · Last updated <time datetime="2026-11-23">23 November 2026</time></p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>This page is built with 🌿 and <a href="https://quarto.org/">Quarto</a>.</p>
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jonas.gaigr@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jonasgaigr">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://orcid.org/0009-0004-0267-1382">
+      <i class="bi bi-orcid" role="img" aria-label="ORCID">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jonasgaigr/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/profile/jonasgaigr.bsky.social">
+      <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
+<script src="js/timeline.js" defer=""></script>
 
 
 

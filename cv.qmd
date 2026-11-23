@@ -1,6 +1,8 @@
 ---
+body-classes: page-cv
 title: "Curriculum Vitae"
 subtitle: "Jonáš Gaigr"
+description: "Curriculum vitae of Jonáš Gaigr: work at the Nature Conservation Agency of the Czech Republic, projects, tools, PhD studies, conferences and talks."
 format:
   html:
     code-fold: false
@@ -15,7 +17,7 @@ date: last-modified
 ---
 
 ::: {.content-visible when-format="html"}
-[📄 Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button" target="_blank"}
+[Download CV as PDF](CV_Jonas_Gaigr.pdf){.btn .btn-outline-primary role="button"}
 :::
 
 I am an ecologist at the Nature Conservation Agency of the Czech Republic and a PhD student at the Faculty of Environmental Sciences, Czech University of Life Sciences Prague, working on systemic change in monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia. My work includes mainstreaming novel biodiversity monitoring methods, developing and revising monitoring methodologies, producing and maintaining algorithms for data analysis, and transforming information systems to aggregate and share data on Natura 2000 and selected threatened species with conservation authorities and stakeholders.
@@ -55,6 +57,14 @@ Biodiversity monitoring of ponds: evaluating the applicability of novel methods 
 <hr>
 
 ::: {.timeline-entry}
+**2026 -- 2028** &nbsp;·&nbsp; [MetaBUG pilot](https://www.vlaanderen.be/inbo/en-GB/projects/metabug-insect-monitoring-met-malaise-vallen-en-dna-metabarcoding-evinbo)
+
+Monitoring insects with Malaise traps and DNA metabarcoding, in 13 countries. A [Biodiversa+](https://www.biodiversa.eu/) pilot.
+:::
+
+<hr>
+
+::: {.timeline-entry}
 **2024 -- 2026** &nbsp;·&nbsp; [ConNaturLIFE Ukraine](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine)
 
 Conservation of Natural Heritage for Life in Ukraine. *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine/101148569*
@@ -66,6 +76,14 @@ Conservation of Natural Heritage for Life in Ukraine. *LIFE23-PRE-CZ-ConNaturLIF
 **2024 -- 2033** &nbsp;·&nbsp; [PROSPECTIVE LIFE](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-IPN-CZ-PROSPECTIVE-LIFE-101104621/protect-species-actively-by-life)
 
 Protect Species Actively by LIFE. *LIFE22-IPN-CZ-PROSPECTIVE-LIFE/101104621*
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**2024 -- 2025** &nbsp;·&nbsp; [ABMS pilot](https://doi.org/10.5281/zenodo.20826248) (co-author of the pilot report)
+
+Automated Biodiversity Monitoring Stations: a transnational sensor network for birds, bats and night-flying insects in 12 EU Member States. A [Biodiversa+](https://www.biodiversa.eu/) pilot.
 :::
 
 <hr>
@@ -84,6 +102,22 @@ The European Biodiversity Partnership -- Horizon Europe partnership on biodivers
 Integrated LIFE project for the Natura 2000 network in the Czech Republic ([Jedna příroda](https://www.jednapriroda.cz)). *LIFE17 IPE/CZ/000005*
 :::
 
+## Tools
+
+::: {.timeline-entry}
+**2020 -- present** &nbsp;·&nbsp; Condition evaluation of species and habitats ([host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/))
+
+The national system for evaluating the condition of species and habitats in the Natura 2000 network and of taxa with active species protection tools in place. Started within LIFE-IP N2K Revisited.
+:::
+
+<hr>
+
+::: {.timeline-entry}
+**December 2025 -- present** &nbsp;·&nbsp; [ndopred](https://github.com/jonasgaigr/ndopred) (author and maintainer)
+
+An R package that turns occurrence records from NDOP into IUCN Red List metrics and categories for national and regional Red List work, with two Shiny dashboards.
+:::
+
 ## Education
 
 ::: {.timeline-entry}
@@ -94,6 +128,8 @@ Supervisor: [Jiří Vojar](https://wp.czu.cz/cs/index.php/?r=1071&mp=person.info
 Thesis topic: *Monitoring methods for amphibian species of European importance in small water bodies and the assessment of their population status in the Czech Natura 2000 network*
 
 A critical evaluation of traditional and novel methods for monitoring amphibian populations and habitats, comparing the detection success of environmental DNA and passive acoustic monitoring against conventional field methods, with a focus on Annex II species such as the great crested newt (*Triturus cristatus*). The project also assesses the status of amphibians in the Czech Natura 2000 network after seven years of standardised monitoring, relating population trends to site management, land cover, and land use.
+
+Project page: [Amphibian communities in ponds](projects/amphibian-communities/index.qmd)
 :::
 
 <hr>
@@ -130,7 +166,7 @@ Transfer project: *A Framework for Condition Evaluation of Threatened Insect Spe
 ## Talks and seminars
 
 - **Citizen science in nature conservation**, CZ-UA round table series, ConNatur LIFE, 2025
-- **TAIEX Expert Mission to Kosovo**, Habitats Directive and Birds Directive transposition, 2024
+- **TAIEX expert missions to Kosovo**, Habitats Directive and Birds Directive transposition, December 2023 and September 2026
 - **Data in Czech nature conservation**, Current trends in nature conservation course, Charles University in Prague, 2022
 
 ## Science and nature conservation communication

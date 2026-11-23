@@ -1,10 +1,10 @@
 ---
+body-classes: page-project
 title: "ConNaturLIFE Ukraine"
 subtitle: "Conservation of Natural Heritage for Life in Ukraine"
 description: |
   A preparatory LIFE project transferring Czech nature conservation expertise, including citizen science approaches, to conservation authorities in Ukraine. It supported Ukraine's first nationwide bioblitz.
 image: /img/projects/connaturlife.png
-categories: [LIFE, Ukraine, citizen science, capacity building]
 toc: false
 ---
 
@@ -18,7 +18,7 @@ One visible result: Ukraine's first nationwide bioblitz, run in 2025, with hundr
 
 *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine / 101148569.*
 
-## Links
-
-[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine){.btn .btn-outline-primary .btn-sm role="button"}
-[Nature Conservation Agency: Ukraine](https://aopk.gov.cz/web/en/ukraine){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine){.btn .btn-outline-primary role="button"}
+[Nature Conservation Agency: Ukraine](https://aopk.gov.cz/web/en/ukraine){.btn .btn-outline-primary role="button"}
+:::

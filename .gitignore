@@ -3,3 +3,6 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# drafts and screenshots of the homepage proposals (large; not part of the site)
+/_proposals/

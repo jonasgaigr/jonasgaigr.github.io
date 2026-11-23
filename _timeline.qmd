@@ -1,0 +1,67 @@
+<!--
+  The project time line, shared by the homepage and the Projects page.
+
+  Each bar is placed by year: --s is the start, --e the last year (inclusive),
+  so "--s:2026;--e:2028" runs from January 2026 to the end of 2028. Months are
+  decimals: December 2025 is 2025.917 (11/12), the middle of September 2026
+  is 2026.708 (8.5/12).
+  Ongoing work: class "on" and no --e; the bar runs to today and fades out.
+  Single missions: a diamond, <span class="pj-dia" style="--s:..."></span>.
+  The axis runs from 2020 over 14 years (--y0 and --span in styles.css);
+  "now" is set to today's date by js/timeline.js.
+-->
+
+```{=html}
+<div class="pj-wrap">
+  <ul class="pj-key" aria-label="How to read the time line">
+    <li><span class="pj-k-bar" aria-hidden="true"></span>when it runs</li>
+    <li><span class="pj-k-bar on" aria-hidden="true"></span>ongoing</li>
+    <li><span class="pj-k-dia" aria-hidden="true"></span>a single mission</li>
+    <li><span class="pj-k-now" aria-hidden="true"></span>now</li>
+  </ul>
+
+  <div class="pj" role="group" aria-label="Projects by cluster, 2020 to 2033">
+    <div class="pj-axis" aria-hidden="true">
+      <span style="--y:2020">2020</span><span style="--y:2024">2024</span><span style="--y:2028">2028</span><span style="--y:2032">2032</span>
+    </div>
+
+    <section class="pj-group" aria-labelledby="pj-c1">
+      <h3 id="pj-c1">Transnational biodiversity monitoring</h3>
+      <p class="pj-why">Biodiversa+ pilots that test novel monitoring methods across countries: automated stations, insects by DNA metabarcoding, and ponds.</p>
+      <ul>
+        <li><a href="projects/biodiversa-plus/index.html"><span class="pj-name"><b>Biodiversa+</b><span>Monitoring work stream · 2022 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2022;--e:2028"></span></span></a></li>
+        <li><a href="projects/abms/index.html"><span class="pj-name"><b>ABMS pilot</b><span>Automated monitoring stations · 2024 to 2025</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2025"></span></span></a></li>
+        <li><a href="projects/biodivpond/index.html"><span class="pj-name"><b>BiodivPond pilot</b><span>Coordinator · 2026 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2026;--e:2028"></span></span></a></li>
+        <li><a href="projects/metabug/index.html"><span class="pj-name"><b>MetaBUG pilot</b><span>Insects, Malaise traps and DNA metabarcoding · 2026 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2026;--e:2028"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c2">
+      <h3 id="pj-c2">Natura 2000 network and threatened species in Czechia</h3>
+      <p class="pj-why">Two integrated LIFE projects. My work on condition evaluation began in the first and continues in the second.</p>
+      <ul>
+        <li><a href="projects/life-n2k-revisited/index.html"><span class="pj-name"><b>LIFE-IP N2K Revisited</b><span>2020 to 2026</span></span><span class="pj-track"><span class="pj-bar" style="--s:2020;--e:2026"></span></span></a></li>
+        <li><a href="projects/prospective-life/index.html"><span class="pj-name"><b>PROSPECTIVE LIFE</b><span>Evaluation framework · 2024 to 2033</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2033"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c3">
+      <h3 id="pj-c3">Nation-wide tools</h3>
+      <p class="pj-why">The condition evaluation system started within LIFE-IP N2K Revisited in 2020; ndopred followed in December 2025. Both are ongoing.</p>
+      <ul>
+        <li><a href="projects/host-naturecz/index.html"><span class="pj-name"><b>Condition evaluation</b><span>host_naturecz · since 2020</span></span><span class="pj-track"><span class="pj-bar on" style="--s:2020"></span></span></a></li>
+        <li><a href="projects/ndopred/index.html"><span class="pj-name"><b>ndopred</b><span>Author and maintainer · since December 2025</span></span><span class="pj-track"><span class="pj-bar on" style="--s:2025.917"></span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="pj-group" aria-labelledby="pj-c4">
+      <h3 id="pj-c4">Sharing Czech experience</h3>
+      <p class="pj-why">Natura 2000, monitoring and data systems, shared with Ukrainian conservation authorities, and with Kosovo on transposing the Habitats and Birds Directives.</p>
+      <ul>
+        <li><a href="projects/connatur-life/index.html"><span class="pj-name"><b>ConNaturLIFE Ukraine</b><span>Monitoring and citizen science · 2024 to 2026</span></span><span class="pj-track"><span class="pj-bar" style="--s:2024;--e:2026"></span></span></a></li>
+        <li><a href="cv.html#talks-and-seminars"><span class="pj-name"><b>TAIEX expert missions to Kosovo</b><span>December 2023 and September 2026</span></span><span class="pj-track"><span class="pj-dia" style="--s:2023.958"></span><span class="pj-dia" style="--s:2026.708"></span></span></a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+```

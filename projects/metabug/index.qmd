@@ -1,0 +1,20 @@
+---
+body-classes: page-project
+title: "MetaBUG pilot"
+subtitle: "Monitoring insects with Malaise traps and DNA metabarcoding"
+description: |
+  A Biodiversa+ pilot, 2026 to 2028, that monitors insects across 13 countries with Malaise traps and DNA metabarcoding.
+image: /img/projects/biodiversaplus.jpg
+toc: false
+---
+
+**2026 -- 2028** &nbsp;·&nbsp; *Biodiversa+ pilot*
+
+MetaBUG is one of the [Biodiversa+](../biodiversa-plus/index.qmd) monitoring pilots. Over three years, partners in 13 countries catch insects in Malaise traps and identify them by DNA metabarcoding, testing how the method can support insect monitoring across Europe.
+
+It runs alongside the [BiodivPond](../biodivpond/index.qmd) pilot, which tests eDNA for ponds, in the same cluster of transnational biodiversity monitoring.
+
+::: {.page-links}
+[MetaBUG at INBO](https://www.vlaanderen.be/inbo/en-GB/projects/metabug-insect-monitoring-met-malaise-vallen-en-dna-metabarcoding-evinbo){.btn .btn-outline-primary role="button"}
+[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary role="button"}
+:::

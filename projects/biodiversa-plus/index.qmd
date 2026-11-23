@@ -1,10 +1,10 @@
 ---
+body-classes: page-project
 title: "Biodiversa+"
 subtitle: "The European Biodiversity Partnership"
 description: |
   The Horizon Europe partnership on biodiversity, bringing together 75 organisations from 37 countries. I contribute to the biodiversity monitoring work stream, on priority setting for monitoring and on the pilots that test novel methods.
 image: /img/projects/biodiversaplus.jpg
-categories: [partnership, Biodiversa+, monitoring, Horizon Europe]
 toc: false
 ---
 
@@ -16,8 +16,8 @@ My contribution sits in the monitoring work stream: developing a methodological 
 
 *Grant agreement 101052342, call HORIZON-CL6-2021-BIODIV-02.*
 
-## Links
-
-[Biodiversa+ website](https://www.biodiversa.eu/){.btn .btn-outline-primary .btn-sm role="button"}
-[Monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary .btn-sm role="button"}
-[CORDIS project record](https://cordis.europa.eu/project/id/101052342){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[Biodiversa+ website](https://www.biodiversa.eu/){.btn .btn-outline-primary role="button"}
+[Monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary role="button"}
+[CORDIS project record](https://cordis.europa.eu/project/id/101052342){.btn .btn-outline-primary role="button"}
+:::

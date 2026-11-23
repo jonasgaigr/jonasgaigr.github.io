@@ -1,10 +1,10 @@
 ---
+body-classes: page-project
 title: "PROSPECTIVE LIFE"
 subtitle: "Protect Species Actively by LIFE"
 description: |
   A ten-year integrated LIFE project on active species protection in Czechia, for taxa whose favourable conservation status cannot be reached by habitat management alone. I work on the condition evaluation framework underpinning it.
 image: /img/projects/prospectivelife.png
-categories: [LIFE, species protection, Czechia, monitoring]
 toc: false
 ---
 
@@ -16,7 +16,7 @@ PROSPECTIVE LIFE is the integrated LIFE project that puts those tools in place, 
 
 *LIFE22-IPN-CZ-PROSPECTIVE-LIFE / 101104621.*
 
-## Links
-
-[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-IPN-CZ-PROSPECTIVE-LIFE-101104621/protect-species-actively-by-life){.btn .btn-outline-primary .btn-sm role="button"}
-[Nature Conservation Agency](https://aopk.gov.cz/web/en/-/prospective-life){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE22-IPN-CZ-PROSPECTIVE-LIFE-101104621/protect-species-actively-by-life){.btn .btn-outline-primary role="button"}
+[Nature Conservation Agency](https://aopk.gov.cz/web/en/-/prospective-life){.btn .btn-outline-primary role="button"}
+:::

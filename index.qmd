@@ -1,51 +1,200 @@
 ---
 title: "Jonáš Gaigr"
-image: img/jonas_gaigr.jpg
-about:
-  id: hero-heading
-  template: trestles
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:jonas.gaigr@gmail.com
-    - icon: github
-      text: GitHub
-      href: https://github.com/jonasgaigr
-    - icon: orcid
-      text: ORCID
-      href: https://orcid.org/0009-0004-0267-1382
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/jonasgaigr/
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/profile/jonasgaigr.bsky.social
+pagetitle: "Jonáš Gaigr · ecologist and conservationist"
+description: "Jonáš Gaigr, ecologist at the Nature Conservation Agency of the Czech Republic and PhD student at the Czech University of Life Sciences Prague: biodiversity monitoring, amphibians, ponds and Natura 2000."
+image: img/og-card.jpg
+page-layout: custom
+title-block-banner: false
+title-block-style: none
+toc: false
+body-classes: home index-transect
+include-after-body:
+  text: |
+    <script src="js/home.js" defer></script>
+    <script src="js/timeline.js" defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jonáš Gaigr",
+      "url": "https://jonasgaigr.github.io/",
+      "image": "https://jonasgaigr.github.io/img/jonas_gaigr.jpg",
+      "jobTitle": "Zoologist, expert on data analysis",
+      "description": "Ecologist and conservationist working on biodiversity monitoring, amphibians, ponds and Natura 2000 in Czechia.",
+      "worksFor": { "@type": "GovernmentOrganization", "name": "Nature Conservation Agency of the Czech Republic", "url": "https://aopk.gov.cz/web/en" },
+      "affiliation": { "@type": "CollegeOrUniversity", "name": "Czech University of Life Sciences Prague", "url": "https://www.czu.cz/en" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Glasgow" },
+      "knowsAbout": ["Biodiversity monitoring", "Natura 2000", "Amphibians", "Ponds", "Environmental DNA", "IUCN Red List"],
+      "sameAs": [
+        "https://orcid.org/0009-0004-0267-1382",
+        "https://github.com/jonasgaigr",
+        "https://www.linkedin.com/in/jonasgaigr/",
+        "https://bsky.app/profile/jonasgaigr.bsky.social"
+      ]
+    }
+    </script>
 ---
 
-::: {#hero-heading}
+<!--
+  Homepage: one transect from the sky to the silt.
+    sky         about me, profiles, CV
+    the bank    BiodivPond                      } the two main projects
+    the water   PhD: amphibian communities in ponds }
+    open water  let's work together
+    deep water  wider trends in biodiversity: condition evaluation, ndopred
+    sediment    recent publications, then the projects and how they cluster
+    bottom      get in touch
+  Text is plain HTML; edit it in place. Styles: the TRANSECT sections at the
+  end of styles.css. js/home.js only switches the navbar colour with depth.
 
-Hello, I'm Jonáš Gaigr.
+  Included files: _recent.qmd (built from publications.bib by
+  _tools/pubs.py) and _timeline.qmd (the project time line, shared with the
+  Projects page; how to edit it is at its top).
+-->
 
-I am an ecologist and conservationist in the Department of Biodiversity Monitoring at the [Nature Conservation Agency of the Czech Republic](https://aopk.gov.cz/web/en) and a PhD student at the [Faculty of Environmental Sciences](https://www.fzp.czu.cz/en), Czech University of Life Sciences Prague. I work on systemic change in the monitoring and evaluation methods used to assess the state of species and habitats within the Natura 2000 network and key umbrella species in Czechia.
+```{=html}
+<div class="descent transect" id="transect">
 
-🎓 Since September 2026, I have been a PhD student supervised by [Jiří Vojar](https://wp.czu.cz/cs/index.php/?r=1071&mp=person.info&idClovek=2622). My doctoral project evaluates traditional and novel methods (environmental DNA and passive acoustic monitoring) for monitoring amphibian species of European importance in small water bodies, and assesses their population status in the Czech Natura 2000 network after seven years of standardised monitoring.
+<div class="air">
+<header class="layer sky tx-hero" id="about">
+  <div class="wrap hero">
+    <div class="hero-text">
+      <p class="eyebrow">Ecologist and conservationist</p>
+      <h1>Jonáš Gaigr</h1>
+      <p class="lead">Monitoring that tells us how nature is doing: amphibians, ponds and Natura&nbsp;2000 in Czechia.</p>
+      <p class="affil">I work in the Department of Biodiversity Monitoring at the <a href="https://aopk.gov.cz/web/en">Nature Conservation Agency of the Czech Republic</a> and am a PhD student at the <a href="https://www.fzp.czu.cz/en">Faculty of Environmental Sciences</a>, Czech University of Life Sciences Prague. My work is about systemic change in the methods used to monitor and evaluate the state of species and habitats in the Natura 2000 network and of key umbrella species in Czechia.</p>
+      <ul class="profiles" aria-label="Profiles">
+        <li><a href="mailto:jonas.gaigr@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i>Email</a></li>
+        <li><a href="https://github.com/jonasgaigr"><i class="bi bi-github" aria-hidden="true"></i>GitHub</a></li>
+        <li><a href="https://orcid.org/0009-0004-0267-1382"><i class="bi bi-orcid" aria-hidden="true"></i>ORCID</a></li>
+        <li><a href="https://www.linkedin.com/in/jonasgaigr/"><i class="bi bi-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="https://bsky.app/profile/jonasgaigr.bsky.social"><i class="bi bi-bluesky" aria-hidden="true"></i>Bluesky</a></li>
+      </ul>
+      <p class="links"><a href="cv.html">Read my CV</a></p>
+    </div>
+    <figure class="tx-portrait">
+      <img src="img/jonas_gaigr.webp" width="440" height="440" alt="Portrait of Jonáš Gaigr">
+    </figure>
+  </div>
+  <!-- Latest: keep three items, newest first -->
+  <section class="wrap tx-latest" aria-labelledby="t-latest">
+    <h2 id="t-latest">Latest</h2>
+    <ol>
+      <li><time datetime="2026-11">November 2026</time><a href="projects/biodivpond/index.html">Ran the BiodivPond contributor workshop on the 2027 stakeholder sampling: 500 ponds in ten partner countries, sampled with eDNA.</a></li>
+      <li><time datetime="2026-09">September 2026</time><a href="projects/amphibian-communities/index.html">Started my PhD at the Czech University of Life Sciences Prague, on amphibian communities in ponds.</a></li>
+      <li><time datetime="2026-09">September 2026</time><a href="cv.html#talks-and-seminars">Second TAIEX expert mission to Kosovo, on transposing the Habitats and Birds Directives.</a></li>
+    </ol>
+  </section>
+  <p class="wrap how"><a href="#t-bank"><span class="how-arrow" aria-hidden="true"></span>Two main projects, then the wider picture</a></p>
+</header>
 
-🔭 My work centres on building a system for the condition evaluation of species and habitats in Czechia across scales, developed in the [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) repository.
+<div class="tx-strip" aria-hidden="true"></div>
 
-🐸 I coordinate the [BiodivPond pilot](https://biodivpond.github.io), a transnational pond biodiversity monitoring initiative supported by the [Biodiversa+ partnership](https://www.biodiversa.eu/). If you work on amphibian, bat, or aquatic invertebrate monitoring and conservation in Europe, I'd love to hear from you.
+<nav class="tx" aria-label="Main projects">
+<ol>
+  <li class="tx-row tx-bank tx-main-proj" id="t-bank">
+    <a href="projects/biodivpond/index.html">
+      <span class="tx-layer">The bank, with people <em>Main project · coordinator</em></span>
+      <span class="tx-main"><strong>BiodivPond</strong><span class="tx-line">A transnational pond biodiversity monitoring pilot supported by the Biodiversa+ partnership, 2026 to 2028. It tests eDNA and passive acoustic monitoring alongside field surveys in core ponds, and extends monitoring to many more ponds through citizen science.</span></span>
+      <span class="tx-img tx-whole tx-badged"><img src="img/home/p-umbrella-1400.webp" srcset="img/home/p-umbrella-800.webp 800w, img/home/p-umbrella-1400.webp 1400w" sizes="(min-width: 1100px) 480px, (min-width: 600px) 36vw, 92vw" width="1400" height="1051" loading="lazy" alt="An umbrella trap floating in a clear spring pond among last year's reeds, with blossoming trees on the far bank"><img class="tx-badge" src="img/home/biodivpond-logo.png" width="560" height="560" loading="lazy" alt="BiodivPond logo: a newt, a dragonfly and leaves in a green circle"></span>
+    </a>
+  </li>
+</ol>
+</nav>
+</div>
 
-📦 I develop [ndopred](https://github.com/jonasgaigr/ndopred), an R package that turns occurrence records from NDOP (*Nálezová databáze ochrany přírody*, the Agency's species occurrence database) into IUCN Red List metrics and categories for national and regional Red List work. It calculates extent of occurrence, area of occupancy, and population trends following the IUCN criteria (v3.1) and the 2024 guidelines, and ships two Shiny dashboards: one for screening long lists of taxa, one for settling a defensible category taxon by taxon.
+<div class="under tx-under" id="under">
+  <img class="littoral" src="img/home/d-littoral.svg" width="600" height="920" alt="" aria-hidden="true">
+  <p class="note note-wl" aria-hidden="true"><svg viewBox="0 0 22 16" width="22" height="16"><path d="M2,1h18L11,11z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M6,13.5h10M8.5,15.6h5" stroke="currentColor" stroke-width="1.2"/></svg>water surface</p>
+  <div class="tx tx-wet">
+  <ol>
+    <li class="tx-row tx-water tx-focus tx-main-proj" id="t-water">
+      <a href="projects/amphibian-communities/index.html">
+        <span class="tx-layer">In the water <em>Main project · PhD since September 2026</em></span>
+        <span class="tx-main"><strong>Amphibian communities in ponds</strong><span class="tx-line">Supervised by Jiří Vojar, my doctoral project evaluates traditional and novel methods, environmental DNA and passive acoustic monitoring, for monitoring amphibian species of European importance in small water bodies. It also assesses their population status in the Czech Natura 2000 network after seven years of standardised monitoring.</span></span>
+        <span class="tx-img tx-whole"><img src="img/home/p-newtsbox-1400.webp" srcset="img/home/p-newtsbox-800.webp 800w, img/home/p-newtsbox-1400.webp 1400w" sizes="(min-width: 1100px) 480px, (min-width: 600px) 36vw, 92vw" width="1400" height="1051" loading="lazy" alt="Crested newts, orange bellies with black spots, in a clear box held up against the sky"></span>
+      </a>
+    </li>
+  </ol>
+  </div>
 
-👯 I'm looking to collaborate on exploring biodiversity trends in Czechia, evaluating the condition of protected species, and assessing the impact of conservation interventions.
+  <section class="wrap tx-ask" aria-labelledby="t-ask">
+    <p class="tag"><span id="t-ask">Let's work together</span></p>
+    <p class="tx-ask-text">I'm looking to collaborate on exploring <b>biodiversity trends in Czechia</b>, evaluating <b>the condition of protected species</b>, and assessing <b>the impact of conservation interventions</b>.</p>
+    <p class="links"><a href="contact.html">Get in touch</a></p>
+  </section>
 
-💩🐞 I also dig into the faunistics of European dung beetles, collecting data on their distribution and abundance, like the [occurrence data for *Euoniticellus fulvus*](https://www.researchgate.net/publication/408416676_Prvni_nalez_skvrnare_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_v_zapadnich_Cechach_po_pul_stoleti_First_record_of_sandy_dung_beetle_Euoniticellus_fulvus_Coleoptera_Scarabaeidae_in_western_Bohemia_i).
+  <section class="tx-deep" aria-labelledby="t-wide">
+    <div class="tx-band-head">
+      <p class="tag"><span>Deep water</span> the wider picture</p>
+      <h2 id="t-wide">Wider trends in biodiversity</h2>
+      <p class="tx-band-lead">Beyond single ponds, I build nation-wide tools for the management and governance of biodiversity conservation in Czechia: how species and habitats are doing across the whole country, and how threatened they are.</p>
+    </div>
+    <div class="tx-tools">
+      <a class="tool" href="projects/host-naturecz/index.html">
+        <span class="tool-img"><img src="img/home/p-plan-1180.webp" srcset="img/home/p-plan-700.webp 700w, img/home/p-plan-1180.webp 1180w" sizes="(min-width: 1100px) 450px, (min-width: 900px) 42vw, 92vw" width="1180" height="968" loading="lazy" alt="Aerial view of a small pond ringed by willows in green grassland"></span>
+        <span class="tx-layer">National system <em class="q">Nature Conservation Agency</em></span>
+        <strong>Condition evaluation of species and habitats</strong>
+        <span class="tool-text">A system that evaluates the condition of species and habitats in the Natura 2000 network and of taxa with active species protection tools in place. It aggregates monitoring data, applies the evaluation rules consistently, and produces results that compare between sites, regions and reporting periods.</span>
+        <span class="tool-code">Code: host_naturecz</span>
+      </a>
+      <a class="tool" href="projects/ndopred/index.html">
+        <span class="tool-img tool-hex"><img class="hex-bg" src="img/home/d-aoo.svg" width="640" height="440" loading="lazy" alt=""><img class="hex" src="img/home/ndopred-hex.png" width="400" height="460" loading="lazy" alt="The ndopred hex sticker: a stag beetle and a flower over a map of Czechia"></span>
+        <span class="tx-layer">R package <em class="q">IUCN Red List</em></span>
+        <strong>ndopred</strong>
+        <span class="tool-text">Turns occurrence records from NDOP, the Agency's species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work: extent of occurrence, area of occupancy and population trends, following the IUCN criteria (v3.1) and the 2024 guidelines. Two Shiny dashboards: one for screening long lists of taxa, one for settling a category taxon by taxon.</span>
+      </a>
+    </div>
+  </section>
 
-### Website navigation
+  <section class="layer sediment tx-sed" aria-labelledby="t-pubs">
+    <div class="sed-top" aria-hidden="true"><svg viewBox="0 0 1000 80" preserveAspectRatio="none" focusable="false"><path class="sed-fill" d="M0,30C260,22 560,58 1000,44L1000,81L0,81Z"/><path class="floc" d="M0,23C260,15 560,51 1000,37" vector-effect="non-scaling-stroke"/><path class="ln" d="M0,30C260,22 560,58 1000,44" vector-effect="non-scaling-stroke"/></svg></div>
 
-- [Projects](projects.qmd) 🚀
-- [CV](cv.qmd) 📄
-- [Publications](publications.qmd) 📚
-- [Get in touch](contact.qmd) 📬
+    <div class="tx-band-head">
+      <p class="tag"><span>The sediment</span> what has settled, newest on top</p>
+      <h2 id="t-pubs">Recent publications</h2>
+```
 
-:::
+<!-- the five newest works, built from publications.bib by _tools/pubs.py -->
+{{< include _recent.qmd >}}
+
+```{=html}
+      <p class="links"><a href="publications.html">All publications</a></p>
+    </div>
+
+    <div class="tx-band-head tx-proj" id="projects-overview">
+      <p class="tag"><span>Deeper</span> the projects underneath</p>
+      <h2 id="t-proj">Projects, and how they fit together</h2>
+      <p class="tx-band-lead">Ten projects, tools and missions in four clusters, on one time line.</p>
+```
+
+{{< include _timeline.qmd >}}
+
+```{=html}
+      <p class="links"><a href="projects.html">All projects</a></p>
+    </div>
+
+    <div class="wrap tx-end" id="contact">
+      <div>
+        <h2>Get in touch</h2>
+        <p>I'm always happy to hear from fellow ecologists, conservation practitioners, and anyone working on biodiversity monitoring. The best way to reach me is by email.</p>
+        <ul class="contact-links">
+          <li><a href="mailto:jonas.gaigr@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i>jonas.gaigr@gmail.com</a></li>
+          <li><a href="https://github.com/jonasgaigr"><i class="bi bi-github" aria-hidden="true"></i>github.com/jonasgaigr</a></li>
+          <li><a href="https://orcid.org/0009-0004-0267-1382"><i class="bi bi-orcid" aria-hidden="true"></i>0009-0004-0267-1382</a></li>
+          <li><a href="https://www.linkedin.com/in/jonasgaigr/"><i class="bi bi-linkedin" aria-hidden="true"></i>linkedin.com/in/jonasgaigr</a></li>
+          <li><a href="https://bsky.app/profile/jonasgaigr.bsky.social"><i class="bi bi-bluesky" aria-hidden="true"></i>jonasgaigr.bsky.social</a></li>
+        </ul>
+      </div>
+      <ul class="tx-more">
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="cv.html">Curriculum vitae</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Get in touch</a></li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+</div>
+```

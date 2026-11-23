@@ -31,28 +31,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../img/jonas_gaigr.jpg" rel="icon" type="image/jpeg">
+<link href="../../img/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-25b1799137782ab87ca5c918e57a6c11.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-191003b1ba6d34ac649f2168eee54564.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-25bc88806963e657f88f348aaa73f857.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-291730606bdf2bb351745db310fc49f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -74,137 +75,108 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Source+Sans+3:ital,wght@0,400;0,600;1,400&amp;display=swap">
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="ndopred – Jonáš Gaigr">
+<meta property="og:description" content="An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.">
+<meta property="og:image" content="https://jonasgaigr.github.io/img/projects/ndopred.png">
+<meta property="og:site_name" content="Jonáš Gaigr">
+<meta property="og:image:height" content="1380">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="ndopred – Jonáš Gaigr">
+<meta name="twitter:description" content="An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.">
+<meta name="twitter:image" content="https://jonasgaigr.github.io/img/projects/ndopred.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1380">
+<meta name="twitter:image-width" content="1200">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-fixed page-project fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Jonáš Gaigr
-      </li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jonáš Gaigr</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Get in touch</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">ndopred</h1>
+            <p class="subtitle lead">IUCN Red List metrics from Czech occurrence records</p>
+                  <div>
+        <div class="description">
+          <p>An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../../">Jonáš Gaigr</a> 
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../projects.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Projects</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">About me</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../cv.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CV</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../publications.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Publications</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../contact.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Get in touch</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">ndopred</h1>
-<p class="subtitle lead">IUCN Red List metrics from Czech occurrence records</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">software</div>
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">IUCN Red List</div>
-    <div class="quarto-category">Czechia</div>
-  </div>
-  </div>
 
-<div>
-  <div class="description">
-    <p>An R package that turns occurrence records from NDOP, the Czech nature conservation species occurrence database, into IUCN Red List metrics and categories for national and regional Red List work. Ships two Shiny dashboards.</p>
-  </div>
+
+
+
+<p><strong>Since December 2025</strong> &nbsp;·&nbsp; <em>Author and maintainer</em></p>
+<p><code>ndopred</code> takes occurrence records from NDOP (<em>Nálezová databáze ochrany přírody</em>, the Nature Conservation Agency’s species occurrence database) and derives the metrics that Red List assessment actually turns on: extent of occurrence, area of occupancy, and population trends, following the IUCN criteria (v3.1) and the 2024 guidelines.</p>
+<p>It ships two Shiny dashboards for the two situations that come up in practice: one for screening long lists of taxa, and one for settling a defensible category taxon by taxon.</p>
+<div class="page-links">
+<p><a href="https://github.com/jonasgaigr/ndopred" class="btn btn-outline-primary" role="button">GitHub repository</a></p>
 </div>
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><strong>Ongoing</strong> &nbsp;·&nbsp; <em>Author and maintainer</em></p>
-<p><code>ndopred</code> takes occurrence records from NDOP (<em>Nálezová databáze ochrany přírody</em>, the Nature Conservation Agency’s species occurrence database) and derives the metrics that Red List assessment actually turns on: extent of occurrence, area of occupancy, and population trends, following the IUCN criteria (v3.1) and the 2024 guidelines.</p>
-<p>It ships two Shiny dashboards for the two situations that come up in practice: one for screening long lists of taxa, and one for settling a defensible category taxon by taxon.</p>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p><a href="https://github.com/jonasgaigr/ndopred" class="btn btn-outline-primary btn-sm" role="button">GitHub repository</a></p>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -280,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jonasgaigr\.github\.io");
+        var filterRegex = new RegExp("^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -616,14 +588,45 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Jonáš Gaigr</p>
+<p>© 2026 Jonáš Gaigr · Last updated <time datetime="2026-11-23">23 November 2026</time></p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">
-<p>This page is built with 🌿 and <a href="https://quarto.org/">Quarto</a>.</p>
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
 </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jonas.gaigr@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jonasgaigr">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://orcid.org/0009-0004-0267-1382">
+      <i class="bi bi-orcid" role="img" aria-label="ORCID">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jonasgaigr/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/profile/jonasgaigr.bsky.social">
+      <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
   </div>
 </footer>
 
