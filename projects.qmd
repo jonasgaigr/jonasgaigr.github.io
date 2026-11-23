@@ -1,7 +1,7 @@
 ---
 body-classes: page-projects
 title: "Projects"
-description: "Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational novel monitoring, Natura 2000 and threatened species in Czechia, nation-wide tools, and sharing Czech experience."
+description: "Projects, tools and missions of Jonáš Gaigr in four clusters on one time line: transnational biodiversity monitoring, Natura 2000 network and threatened species in Czechia, nation-wide tools, and sharing Czech experience."
 toc: false
 include-after-body:
   text: |

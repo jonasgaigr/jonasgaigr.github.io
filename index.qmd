@@ -29,8 +29,7 @@ include-after-body:
         "https://orcid.org/0009-0004-0267-1382",
         "https://github.com/jonasgaigr",
         "https://www.linkedin.com/in/jonasgaigr/",
-        "https://bsky.app/profile/jonasgaigr.bsky.social",
-        "https://x.com/jonasgaigr"
+        "https://bsky.app/profile/jonasgaigr.bsky.social"
       ]
     }
     </script>
@@ -40,7 +39,7 @@ include-after-body:
   Homepage: one transect from the sky to the silt.
     sky         about me, profiles, CV
     the bank    BiodivPond                      } the two main projects
-    the water   PhD: amphibians in small waters }
+    the water   PhD: amphibian communities in ponds }
     open water  let's work together
     deep water  wider trends in biodiversity: condition evaluation, ndopred
     sediment    recent publications, then the projects and how they cluster
@@ -82,7 +81,7 @@ include-after-body:
     <h2 id="t-latest">Latest</h2>
     <ol>
       <li><time datetime="2026-11">November 2026</time><a href="projects/biodivpond/index.html">Ran the BiodivPond contributor workshop on the 2027 stakeholder sampling: 500 ponds in ten partner countries, sampled with eDNA.</a></li>
-      <li><time datetime="2026-09">September 2026</time><a href="cv.html#education">Started my PhD at the Czech University of Life Sciences Prague, on amphibians in small waters.</a></li>
+      <li><time datetime="2026-09">September 2026</time><a href="projects/amphibian-communities/index.html">Started my PhD at the Czech University of Life Sciences Prague, on amphibian communities in ponds.</a></li>
       <li><time datetime="2026-09">September 2026</time><a href="cv.html#talks-and-seminars">Second TAIEX expert mission to Kosovo, on transposing the Habitats and Birds Directives.</a></li>
     </ol>
   </section>
@@ -97,7 +96,7 @@ include-after-body:
     <a href="projects/biodivpond/index.html">
       <span class="tx-layer">The bank, with people <em>Main project · coordinator</em></span>
       <span class="tx-main"><strong>BiodivPond</strong><span class="tx-line">A transnational pond biodiversity monitoring pilot supported by the Biodiversa+ partnership, 2026 to 2028. It tests eDNA and passive acoustic monitoring alongside field surveys in core ponds, and extends monitoring to many more ponds through citizen science.</span></span>
-      <span class="tx-img tx-logo"><img src="img/home/biodivpond-logo.png" width="560" height="560" loading="lazy" alt="BiodivPond logo: a newt, a dragonfly and leaves in a green circle"></span>
+      <span class="tx-img tx-whole tx-badged"><img src="img/home/p-umbrella-1400.webp" srcset="img/home/p-umbrella-800.webp 800w, img/home/p-umbrella-1400.webp 1400w" sizes="(min-width: 1100px) 480px, (min-width: 600px) 36vw, 92vw" width="1400" height="1051" loading="lazy" alt="An umbrella trap floating in a clear spring pond among last year's reeds, with blossoming trees on the far bank"><img class="tx-badge" src="img/home/biodivpond-logo.png" width="560" height="560" loading="lazy" alt="BiodivPond logo: a newt, a dragonfly and leaves in a green circle"></span>
     </a>
   </li>
 </ol>
@@ -110,9 +109,9 @@ include-after-body:
   <div class="tx tx-wet">
   <ol>
     <li class="tx-row tx-water tx-focus tx-main-proj" id="t-water">
-      <a href="cv.html#education">
+      <a href="projects/amphibian-communities/index.html">
         <span class="tx-layer">In the water <em>Main project · PhD since September 2026</em></span>
-        <span class="tx-main"><strong>Amphibians in small waters</strong><span class="tx-line">Supervised by Jiří Vojar, my doctoral project evaluates traditional and novel methods, environmental DNA and passive acoustic monitoring, for monitoring amphibian species of European importance in small water bodies. It also assesses their population status in the Czech Natura 2000 network after seven years of standardised monitoring.</span></span>
+        <span class="tx-main"><strong>Amphibian communities in ponds</strong><span class="tx-line">Supervised by Jiří Vojar, my doctoral project evaluates traditional and novel methods, environmental DNA and passive acoustic monitoring, for monitoring amphibian species of European importance in small water bodies. It also assesses their population status in the Czech Natura 2000 network after seven years of standardised monitoring.</span></span>
         <span class="tx-img tx-whole"><img src="img/home/p-newtsbox-1400.webp" srcset="img/home/p-newtsbox-800.webp 800w, img/home/p-newtsbox-1400.webp 1400w" sizes="(min-width: 1100px) 480px, (min-width: 600px) 36vw, 92vw" width="1400" height="1051" loading="lazy" alt="Crested newts, orange bellies with black spots, in a clear box held up against the sky"></span>
       </a>
     </li>

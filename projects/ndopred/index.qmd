@@ -14,6 +14,6 @@ toc: false
 
 It ships two Shiny dashboards for the two situations that come up in practice: one for screening long lists of taxa, and one for settling a defensible category taxon by taxon.
 
-## Links
-
-[GitHub repository](https://github.com/jonasgaigr/ndopred){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[GitHub repository](https://github.com/jonasgaigr/ndopred){.btn .btn-outline-primary role="button"}
+:::

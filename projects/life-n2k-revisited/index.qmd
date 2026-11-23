@@ -16,8 +16,8 @@ This is where my work on condition evaluation began: revising monitoring methodo
 
 *LIFE17 IPE/CZ/000005.*
 
-## Links
-
-[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic){.btn .btn-outline-primary .btn-sm role="button"}
-[Jedna příroda](https://www.jednapriroda.cz){.btn .btn-outline-primary .btn-sm role="button"}
-[Nature Conservation Agency: LIFE](https://aopk.gov.cz/web/en/life){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE17-IPE-CZ-000005/integrated-life-project-for-the-natura-2000-network-in-the-czech-republic){.btn .btn-outline-primary role="button"}
+[Jedna příroda](https://www.jednapriroda.cz){.btn .btn-outline-primary role="button"}
+[Nature Conservation Agency: LIFE](https://aopk.gov.cz/web/en/life){.btn .btn-outline-primary role="button"}
+:::

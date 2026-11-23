@@ -22,9 +22,6 @@ about:
     - icon: bluesky
       text: Bluesky
       href: https://bsky.app/profile/jonasgaigr.bsky.social
-    - icon: twitter-x
-      text: X (Twitter)
-      href: https://x.com/jonasgaigr
 ---
 
 ::: {#contact-heading}
@@ -34,7 +31,6 @@ I'm always happy to hear from fellow ecologists, conservation practitioners, and
 - Biodiversity trends in Czechia, condition assessment of protected species, and the impacts of conservation interventions
 - Amphibian, bat, and aquatic invertebrate monitoring and conservation in Europe, through the [BiodivPond pilot](https://biodivpond.github.io)
 - Faunistics of European dung beetles, especially latitudinal range shifts
-- Translating R workflows in [host_naturecz](https://github.com/BiodivMonCZ/host_naturecz/) to SQL
 
 The best way to reach me is by [email](mailto:jonas.gaigr@gmail.com). You can also find me on the channels below.
 

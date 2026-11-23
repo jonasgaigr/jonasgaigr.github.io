@@ -16,7 +16,7 @@ Around 200 sensors were deployed at 70 sampling locations in 12 EU Member States
 
 The pilot report concludes that automated sensor networks can support scalable, standardised biodiversity monitoring, and sets out what wider use needs: robust data infrastructure, agreed protocols, expert verification, local processing options, realistic cost planning and strong coordination across partners.
 
-## Links
-
-[Pilot report (Zenodo)](https://doi.org/10.5281/zenodo.20826248){.btn .btn-outline-primary .btn-sm role="button"}
-[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[Pilot report (Zenodo)](https://doi.org/10.5281/zenodo.20826248){.btn .btn-outline-primary role="button"}
+[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary role="button"}
+:::

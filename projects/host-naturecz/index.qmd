@@ -14,8 +14,6 @@ The condition evaluation system started in 2020 within [LIFE-IP N2K Revisited](.
 
 `host_naturecz` holds the algorithms and data workflows behind the condition evaluation system for species and habitats within the Natura 2000 network and for taxa with active species protection tools in place. It is the engine underneath the reporting: aggregating monitoring data, applying evaluation rules consistently, and producing results that can be compared between sites, regions and reporting periods.
 
-Current work includes translating the R workflows into SQL so the evaluation runs closer to the data.
-
-## Links
-
-[GitHub repository](https://github.com/BiodivMonCZ/host_naturecz/){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[GitHub repository](https://github.com/BiodivMonCZ/host_naturecz/){.btn .btn-outline-primary role="button"}
+:::

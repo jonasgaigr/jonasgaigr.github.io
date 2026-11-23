@@ -168,13 +168,11 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Since 2020</strong> &nbsp;·&nbsp; <em>Department of Biodiversity Monitoring, Nature Conservation Agency of the Czech Republic</em></p>
 <p>The condition evaluation system started in 2020 within <a href="../../projects/life-n2k-revisited/index.html">LIFE-IP N2K Revisited</a> and continues in <a href="../../projects/prospective-life/index.html">PROSPECTIVE LIFE</a>.</p>
 <p><code>host_naturecz</code> holds the algorithms and data workflows behind the condition evaluation system for species and habitats within the Natura 2000 network and for taxa with active species protection tools in place. It is the engine underneath the reporting: aggregating monitoring data, applying evaluation rules consistently, and producing results that can be compared between sites, regions and reporting periods.</p>
-<p>Current work includes translating the R workflows into SQL so the evaluation runs closer to the data.</p>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p><a href="https://github.com/BiodivMonCZ/host_naturecz/" class="btn btn-outline-primary btn-sm" role="button">GitHub repository</a></p>
+<div class="page-links">
+<p><a href="https://github.com/BiodivMonCZ/host_naturecz/" class="btn btn-outline-primary" role="button">GitHub repository</a></p>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -250,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jonasgaigr\.github\.io");
+        var filterRegex = new RegExp("^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -586,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Jonáš Gaigr · Last updated <time datetime="2026-11-22">22 November 2026</time></p>
+<p>© 2026 Jonáš Gaigr · Last updated <time datetime="2026-11-23">23 November 2026</time></p>
 </div>   
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org/">Quarto</a></p>

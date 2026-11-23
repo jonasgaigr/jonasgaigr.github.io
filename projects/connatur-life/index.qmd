@@ -18,7 +18,7 @@ One visible result: Ukraine's first nationwide bioblitz, run in 2025, with hundr
 
 *LIFE23-PRE-CZ-ConNaturLIFE-Ukraine / 101148569.*
 
-## Links
-
-[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine){.btn .btn-outline-primary .btn-sm role="button"}
-[Nature Conservation Agency: Ukraine](https://aopk.gov.cz/web/en/ukraine){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[European Commission project page](https://webgate.ec.europa.eu/life/publicWebsite/project/LIFE23-PRE-CZ-ConNaturLIFE-Ukraine-101148569/conservation-of-natural-heritage-for-life-in-ukraine){.btn .btn-outline-primary role="button"}
+[Nature Conservation Agency: Ukraine](https://aopk.gov.cz/web/en/ukraine){.btn .btn-outline-primary role="button"}
+:::

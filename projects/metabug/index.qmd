@@ -12,9 +12,9 @@ toc: false
 
 MetaBUG is one of the [Biodiversa+](../biodiversa-plus/index.qmd) monitoring pilots. Over three years, partners in 13 countries catch insects in Malaise traps and identify them by DNA metabarcoding, testing how the method can support insect monitoring across Europe.
 
-It runs alongside the [BiodivPond](../biodivpond/index.qmd) pilot, which tests eDNA for ponds, in the same cluster of transnational novel monitoring.
+It runs alongside the [BiodivPond](../biodivpond/index.qmd) pilot, which tests eDNA for ponds, in the same cluster of transnational biodiversity monitoring.
 
-## Links
-
-[MetaBUG at INBO](https://www.vlaanderen.be/inbo/en-GB/projects/metabug-insect-monitoring-met-malaise-vallen-en-dna-metabarcoding-evinbo){.btn .btn-outline-primary .btn-sm role="button"}
-[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary .btn-sm role="button"}
+::: {.page-links}
+[MetaBUG at INBO](https://www.vlaanderen.be/inbo/en-GB/projects/metabug-insect-monitoring-met-malaise-vallen-en-dna-metabarcoding-evinbo){.btn .btn-outline-primary role="button"}
+[Biodiversa+ monitoring pilots](https://www.biodiversa.eu/biodiversity-monitoring/pilots/){.btn .btn-outline-primary role="button"}
+:::

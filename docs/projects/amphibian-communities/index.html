@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="My PhD at the Czech University of Life Sciences Prague. It tests environmental DNA and passive acoustic monitoring against traditional field surveys at the same ponds, and uses Czech monitoring data to ask how amphibians are doing in Natura 2000 sites and in ponds created for them.">
+
+<title>Amphibian communities in ponds – Jonáš Gaigr</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-191003b1ba6d34ac649f2168eee54564.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-291730606bdf2bb351745db310fc49f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Source+Sans+3:ital,wght@0,400;0,600;1,400&amp;display=swap">
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Amphibian communities in ponds – Jonáš Gaigr">
+<meta property="og:description" content="My PhD at the Czech University of Life Sciences Prague. It tests environmental DNA and passive acoustic monitoring against traditional field surveys at the same ponds, and uses Czech monitoring data to ask how amphibians are doing in Natura 2000 sites and in ponds created for them.">
+<meta property="og:image" content="https://jonasgaigr.github.io/img/projects/amphibian-communities/og-card.jpg">
+<meta property="og:site_name" content="Jonáš Gaigr">
+<meta name="twitter:title" content="Amphibian communities in ponds – Jonáš Gaigr">
+<meta name="twitter:description" content="My PhD at the Czech University of Life Sciences Prague. It tests environmental DNA and passive acoustic monitoring against traditional field surveys at the same ponds, and uses Czech monitoring data to ask how amphibians are doing in Natura 2000 sites and in ponds created for them.">
+<meta name="twitter:image" content="https://jonasgaigr.github.io/img/projects/amphibian-communities/og-card.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed page-project page-amphibians fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jonáš Gaigr</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Get in touch</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Amphibian communities in ponds</h1>
+            <p class="subtitle lead">Who lives in a pond, how we find out, and how they are doing</p>
+                  <div>
+        <div class="description">
+          <p>My PhD at the Czech University of Life Sciences Prague. It tests environmental DNA and passive acoustic monitoring against traditional field surveys at the same ponds, and uses Czech monitoring data to ask how amphibians are doing in Natura 2000 sites and in ponds created for them.</p>
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<!--
+  The PhD project page (formerly "Amphibians in small waters"). The registered
+  thesis title is unchanged and quoted below.
+  Sources, as of November 2026:
+    PhD-interview-presentation  talks/2026-10-ecology-seminar (aims, methods, plan)
+    amphibian-condition-czechia report/report.md, section 15 (Natura 2000 trends, losses)
+    amphimon-czechia            output/report (monitoring coverage of the range)
+    mPPKobojzivelnici           report/REPORT_en.md of 4 November 2026 (created ponds)
+    BiodivPond.github.io        core_pond_dataset.qmd, about.qmd
+  RULE FOR THE WHOLE PAGE: describe questions, data and methods, not answers.
+  Keep hypotheses and unpublished findings few and general: no expected
+  outcomes, no effect sizes, trends or percentages from unpublished analyses.
+  Published results (with a citation) are fine. trap counts and ddPCR are
+  compared, not calibrated against each other.
+  Photos: img/projects/amphibian-communities/, the owner's own.
+  Styles: "PROJECT PAGE: Amphibian communities in ponds" at the end of styles.css.
+-->
+<dl class="ac-meta">
+  <div><dt>PhD</dt><dd>Since September 2026</dd></div>
+  <div><dt>Where</dt><dd><a href="https://www.fzp.czu.cz/en">Faculty of Environmental Sciences</a>, Czech University of Life Sciences Prague</dd></div>
+  <div><dt>Supervision</dt><dd><span><a href="https://wp.czu.cz/cs/index.php/?r=1071&amp;mp=person.info&amp;idClovek=2622">Jiří Vojar</a>, supervisor</span><span>Lenka Jeřábková, co‑supervisor</span></dd></div>
+</dl>
+<div class="ac-lead">
+<p>A pond’s amphibian community is the set of species that breed in it, how many of them there are, and how that changes from year to year. Ponds hold up to 70&nbsp;% of the freshwater species in European landscapes, but they are small, numerous and scattered, so most monitoring schemes pass them by. And a survey that misses a species does not show that it is absent: whether we call a population stable or declining depends on how reliably each method finds it, and at what cost.</p>
+</div>
+<p>My PhD asks how well we can see these communities, and what the Czech monitoring data already say about them. Its field data come from <a href="../../projects/biodivpond/index.html">BiodivPond</a>, the European pond monitoring pilot I coordinate, where the same ponds are surveyed by several methods on the same dates.</p>
+<div class="ac-topic">
+<p>Registered thesis topic: <em>Monitoring methods for amphibian species of European importance in small water bodies and the assessment of their population status in the Czech Natura 2000 network</em></p>
+</div>
+<section id="three-questions" class="level2">
+<h2 class="anchored" data-anchor-id="three-questions">Three questions</h2>
+<ol class="ac-q">
+  <li>
+    <span class="ac-q-n" aria-hidden="true">1</span>
+    <span class="ac-q-tag">Methods</span>
+    <p>How well do environmental DNA and passive acoustic monitoring find a pond's amphibians, compared with traps, nets and night counts at the same pond on the same date?</p>
+  </li>
+  <li>
+    <span class="ac-q-n" aria-hidden="true">2</span>
+    <span class="ac-q-tag">Status</span>
+    <p>How are the amphibians of European importance doing in the Czech Natura 2000 network after seven years of standardised monitoring, and do ponds created for amphibians work?</p>
+  </li>
+  <li>
+    <span class="ac-q-n" aria-hidden="true">3</span>
+    <span class="ac-q-tag">Ponds</span>
+    <p>What shapes amphibian communities across Europe: the water, its vegetation and fish, or the land around the pond?</p>
+  </li>
+</ol>
+</section>
+<section id="who-lives-in-a-pond" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="who-lives-in-a-pond">Who lives in a pond</h2>
+<p>Five of the species I meet in Czech ponds. Each method sees this community differently: a trap holds whatever swims into it overnight, a recorder hears only the species that call, and eDNA finds the species that have left DNA in the water.</p>
+<div class="column-page">
+<figure class="ac-strip figure">
+  <ul>
+    <li><img src="../../img/projects/amphibian-communities/sp-triturus.webp" width="520" height="520" loading="lazy" alt="A great crested newt, belly up on the mesh of a dip net, its orange belly marked with black blotches" class="figure-img"><span class="ac-sp">Great crested newt <span class="ac-sci"><i>Triturus cristatus</i></span></span><span class="ac-annex">Annex II</span></li>
+    <li><img src="../../img/projects/amphibian-communities/sp-bufo.webp" width="520" height="520" loading="lazy" alt="A common toad sitting in shallow dark water among green stems" class="figure-img"><span class="ac-sp">Common toad <span class="ac-sci"><i>Bufo bufo</i></span></span></li>
+    <li><img src="../../img/projects/amphibian-communities/sp-pelobates.webp" width="520" height="520" loading="lazy" alt="Two grey-brown common spadefoots side by side on a pale sorting tray" class="figure-img"><span class="ac-sp">Common spadefoot <span class="ac-sci"><i>Pelobates fuscus</i></span></span></li>
+    <li><img src="../../img/projects/amphibian-communities/sp-hyla.webp" width="520" height="520" loading="lazy" alt="A bright green European tree frog on cracked mud at night, lit by a torch" class="figure-img"><span class="ac-sp">European tree frog <span class="ac-sci"><i>Hyla arborea</i></span></span></li>
+    <li><img src="../../img/projects/amphibian-communities/sp-pelophylax.webp" width="520" height="520" loading="lazy" alt="A young green-and-brown water frog on orange sand" class="figure-img"><span class="ac-sp">Water frog <span class="ac-sci"><i>Pelophylax</i>&nbsp;sp.</span></span></li>
+  </ul>
+  <figcaption>Annex II: one of the six Czech species listed in Annex II of the Habitats Directive, whose status Czechia reports to the EU every six years. Photographs: Jonáš Gaigr.</figcaption>
+</figure>
+</div>
+</section>
+<section id="one-pond-three-ways-of-looking" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="one-pond-three-ways-of-looking">One pond, three ways of looking</h2>
+<p>BiodivPond surveys the same core ponds with three kinds of method. Comparing what each finds, pond by pond and date by date, is the core of the methods question.</p>
+<div class="column-page">
+<figure class="ac-diagram figure">
+  <svg viewbox="0 0 1000 320" role="img" aria-labelledby="ac-d-title ac-d-desc" focusable="false">
+    <title id="ac-d-title">Where each method samples, in one pond</title>
+    <desc id="ac-d-desc">A cross-section of a pond. a: an umbrella trap stands on the bottom of the shallow, vegetated margin, 25 to 50 centimetres deep, with a float at the surface. b: water is taken from several points across the surface and pooled into one sample. c: a recorder on a tree on the bank picks up the call of a frog at the water's edge.</desc>
+    <defs>
+      <pattern id="ac-hatch" width="7" height="7" patternunits="userSpaceOnUse" patterntransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="7" class="ac-hatch-line"></line></pattern>
+      <pattern id="ac-mesh" width="6" height="6" patternunits="userSpaceOnUse" patterntransform="rotate(30)"><path d="M0,0H6M0,0V6" class="ac-mesh-line"></path></pattern>
+    </defs>
+
+    <!-- water, then the ground over it -->
+    <path class="ac-water" d="M232,170 C250,186 268,200 300,206 C350,214 390,262 450,280 C520,300 600,302 660,290 C720,278 760,230 790,206 C800,196 808,183 818,170 Z"></path>
+    <path class="ac-ground" d="M0,150 C80,148 150,146 190,152 C210,156 222,162 232,170 C250,186 268,200 300,206 C350,214 390,262 450,280 C520,300 600,302 660,290 C720,278 760,230 790,206 C800,196 808,183 818,170 C834,152 860,140 920,138 C950,137 980,138 1000,138 L1000,320 L0,320 Z"></path>
+    <path class="ac-gline" d="M0,150 C80,148 150,146 190,152 C210,156 222,162 232,170 C250,186 268,200 300,206 C350,214 390,262 450,280 C520,300 600,302 660,290 C720,278 760,230 790,206 C800,196 808,183 818,170 C834,152 860,140 920,138 C950,137 980,138 1000,138"></path>
+    <path class="ac-surface" d="M232,170H818"></path>
+    <!-- the surveyor's water-level mark -->
+    <g class="ac-wl"><path d="M654,158h14l-7,9z"></path><path d="M656,173h10M659,177h4"></path></g>
+
+    <!-- reeds and grass -->
+    <g class="ac-reed">
+      <path d="M204,156 C203,130 205,108 208,90"></path><path d="M212,159 C213,134 216,116 222,100"></path><path d="M219,162 C217,140 212,124 206,112"></path>
+      <path d="M744,236 C743,200 745,150 747,112"></path><path d="M752,226 C753,190 757,152 763,126"></path><path d="M759,218 C757,186 751,160 742,140"></path>
+      <path d="M836,150 C835,128 838,110 842,96"></path><path d="M843,147 C845,126 849,114 856,104"></path>
+      <path d="M40,149l-3-9M44,149l2-10M48,149l5-7M120,147l-3-8M124,147l1-10M128,147l5-8M968,138l-3-9M972,138l2-10M976,138l5-7"></path>
+    </g>
+
+    <!-- a: the umbrella trap on the bottom of the margin, its float at the surface -->
+    <path class="ac-trap" d="M264,199 Q268,180 297,176 Q326,180 331,208 Z"></path>
+    <path class="ac-trap-ribs" d="M297,176L267,199M297,176L283,203M297,176L313,206M297,176L329,208"></path>
+    <path class="ac-line" d="M297,176V171"></path>
+    <rect class="ac-float" x="290" y="162" width="14" height="9" rx="3"></rect>
+    <g class="ac-dim">
+      <path d="M346,170V208M341,170h10M341,208h10"></path>
+      <text x="356" y="194">25–50 cm</text>
+    </g>
+
+    <!-- b: several points across the surface, pooled into one sample -->
+    <g class="ac-fan"><path d="M390,170L547,99"></path><path d="M500,170L552,100"></path><path d="M610,170L558,100"></path><path d="M720,170L563,99"></path></g>
+    <g class="ac-pt"><circle cx="390" cy="170" r="4.5"></circle><circle cx="500" cy="170" r="4.5"></circle><circle cx="610" cy="170" r="4.5"></circle><circle cx="720" cy="170" r="4.5"></circle></g>
+    <g class="ac-bottle">
+      <rect x="541" y="58" width="28" height="41" rx="5"></rect>
+      <path class="ac-fill" d="M542.5,78h25v15.5a4,4 0 0 1 -4,4h-17a4,4 0 0 1 -4,-4z"></path>
+      <rect x="548" y="50" width="14" height="9"></rect>
+      <rect x="546" y="44" width="18" height="7" rx="1.5"></rect>
+    </g>
+    <text class="ac-dim ac-note" x="555" y="200">water from several points</text>
+
+    <!-- c: a calling frog at the edge, the recorder on a tree on the bank -->
+    <g class="ac-frog"><ellipse cx="771" cy="171" rx="12" ry="5"></ellipse><circle cx="765" cy="166" r="3.4"></circle><circle cx="777" cy="166" r="3.4"></circle></g>
+    <g class="ac-call"><path d="M780.7,142.6A18,18 0 0 1 793.4,155.3"></path><path d="M783.8,131A30,30 0 0 1 805,152.2"></path><path d="M786.9,119.4A42,42 0 0 1 816.6,149.1"></path></g>
+    <text class="ac-dim ac-note" x="812" y="116">calls</text>
+    <path class="ac-trunk" d="M902,139 C903,100 903,40 901,0 H919 C917,40 917,100 920,139 Z"></path>
+    <path class="ac-line" d="M917,52 C930,38 944,26 962,14M904,30 C894,20 886,12 874,4"></path>
+    <polygon class="ac-panel" points="878,64 911,57 915,71 882,78"></polygon>
+    <path class="ac-line" d="M897,74V80"></path>
+    <rect class="ac-box" x="890" y="80" width="22" height="30" rx="2"></rect>
+    <path class="ac-strap" d="M899,88H921M899,102H921"></path>
+
+    <!-- markers -->
+    <g class="ac-mk"><circle cx="297" cy="128" r="14"></circle><text x="297" y="128">a</text></g>
+    <text class="ac-lbl" x="277" y="133" text-anchor="end">umbrella trap</text>
+    <g class="ac-mk"><circle cx="600" cy="62" r="14"></circle><text x="600" y="62">b</text></g>
+    <text class="ac-lbl" x="620" y="67">one pooled water sample</text>
+    <g class="ac-mk"><circle cx="864" cy="40" r="14"></circle><text x="864" y="40">c</text></g>
+    <text class="ac-lbl" x="844" y="45" text-anchor="end">recorder</text>
+  </svg>
+  <figcaption>Where each method samples, in one pond. Not to scale.</figcaption>
+</figure>
+
+<div class="ac-methods">
+  <section aria-labelledby="ac-m-a">
+    <p class="ac-m-head"><span class="ac-mk-key" aria-hidden="true">a</span><span class="ac-m-kind">Traditional</span></p>
+    <h3 id="ac-m-a" class="anchored">Umbrella traps</h3>
+    <p>The standard. Hexagonal mesh traps stand among vegetation 0.5–1.5&nbsp;m from the shore and 25–50&nbsp;cm deep, from sunset to sunrise. An air-filled bottle keeps the top above water, so nothing drowns.</p>
+    <dl>
+      <dt>Records</dt><dd>Species, life stage and sex, and the belly pattern of each crested newt, so an animal can be recognised when it is caught again.</dd>
+      <dt>Limit</dt><dd>One night with six traps detects the great crested newt only about 40&nbsp;% of the time (Kröpfli et&nbsp;al. 2010).</dd>
+    </dl>
+  </section>
+  <section aria-labelledby="ac-m-b">
+    <p class="ac-m-head"><span class="ac-mk-key" aria-hidden="true">b</span><span class="ac-m-kind">Novel</span></p>
+    <h3 id="ac-m-b" class="anchored">Environmental DNA</h3>
+    <p>Water from several points around the pond, pooled into one sample and filtered on site, then analysed at the pilot's eDNA hub at INBO in Belgium. Metabarcoding lists many species from one sample, fish and invertebrates included; a targeted ddPCR assay looks for crested newts alone.</p>
+    <dl>
+      <dt>Records</dt><dd>Which species are present, including rare and hidden ones, in data comparable across many ponds.</dd>
+      <dt>Limit</dt><dd>Not how many animals or which life stages, and nothing for species missing from the reference library.</dd>
+    </dl>
+  </section>
+  <section aria-labelledby="ac-m-c">
+    <p class="ac-m-head"><span class="ac-mk-key" aria-hidden="true">c</span><span class="ac-m-kind">Novel</span></p>
+    <h3 id="ac-m-c" class="anchored">Passive acoustic monitoring</h3>
+    <p>A recorder at the pond, at 47 of the 60 core ponds in 2026. The processing builds on the pipeline of the Biodiversa+ automated monitoring pilot, which recognises birds and bats.</p>
+    <dl>
+      <dt>Records</dt><dd>Calling frogs and toads (water frogs, tree frogs, fire-bellied toads) and bats.</dd>
+      <dt>Limit</dt><dd>Newts do not call, and amphibian calls are a step the existing pipeline does not yet cover. A first pass at adding them is part of this project.</dd>
+    </dl>
+  </section>
+</div>
+</div>
+<div class="ac-expect">
+<p><strong>The comparison.</strong> At each pond and date, the species found by eDNA are compared with those caught in traps, and the crested newt ddPCR results with the trap counts.</p>
+</div>
+</section>
+<section id="the-data" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-data">The data</h2>
+<p>Three datasets, one European and two Czech, each answering a different part of the questions.</p>
+<div class="column-page">
+<div class="ac-data">
+  <section>
+    <p class="ac-d-where">Europe <span>BiodivPond</span></p>
+    <p class="ac-d-num">60</p>
+    <h3 class="ac-d-what anchored">core ponds sampled in 2026</h3>
+    <p>eDNA at all 60, traditional surveys at 48, acoustic recorders at 47. In 2027 citizen scientists sample another 500 ponds for eDNA.</p>
+  </section>
+  <section>
+    <p class="ac-d-where">Czechia <span>Natura 2000 monitoring</span></p>
+    <p class="ac-d-num">6</p>
+    <h3 class="ac-d-what anchored">Annex II species, <span class="ac-nw">2020–2025</span></h3>
+    <p>Counts, abundance classes and habitat records from 1,589 sites.</p>
+  </section>
+  <section>
+    <p class="ac-d-where">Czechia <span>Created ponds</span></p>
+    <p class="ac-d-num">172</p>
+    <h3 class="ac-d-what anchored">ponds created or restored for amphibians, <span class="ac-nw">2009–2025</span></h3>
+    <p>The Agency's Pond Restoration Effectiveness Monitoring of subsidised ponds: 572 site-years and 1,685 visits, recording every species and life stage, and the pond itself: depth, shading, vegetation and fish.</p>
+  </section>
+</div>
+</div>
+</section>
+<section id="analyses-under-way" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="analyses-under-way">Analyses under way</h2>
+<div class="ac-wip">
+<p>Work in progress. Results will follow in publications.</p>
+</div>
+<div class="column-page">
+<section class="ac-res ac-res-wide" aria-labelledby="ac-r1">
+  <figure class="ac-res-photo figure">
+    <img src="../../img/projects/amphibian-communities/r-bombina.webp" width="1400" height="443" loading="lazy" alt="A yellow-bellied toad floating in shallow, sunlit water among thin stems" class="figure-img">
+    <figcaption>Yellow-bellied toad, <i>Bombina variegata</i></figcaption>
+  </figure>
+  <h3 id="ac-r1" class="anchored">Natura 2000 sites, <span class="ac-nw">2020–2025</span></h3>
+  <ul class="ac-find">
+    <li><b>Population trends</b> of the six Annex II species, from counts and abundance classes, and how robust they are to the choice of estimator and of sites.</li>
+    <li><b>Apparent local losses:</b> how many are real, and how many are populations that simply went undetected in one season.</li>
+  </ul>
+</section>
+
+<section class="ac-res ac-res-side" aria-labelledby="ac-r2">
+  <div>
+    <h3 id="ac-r2" class="anchored">Created and restored ponds, <span class="ac-nw">2009–2025</span></h3>
+    <ul class="ac-find">
+      <li><b>Trends</b> of single species and of species richness across the monitored ponds.</li>
+      <li><b>Colonisation:</b> how quickly new ponds gain their species, and what role management plays.</li>
+    </ul>
+    <p class="ac-res-note">A manuscript is planned for mid‑2027.</p>
+  </div>
+  <figure class="ac-res-photo figure">
+    <img src="../../img/projects/amphibian-communities/r-newpond.webp" width="1000" height="751" loading="lazy" alt="A small, newly dug pond in bare sandy ground under a blue sky, with a person sampling at its edge" class="figure-img">
+    <figcaption>A newly dug pond</figcaption>
+  </figure>
+</section>
+</div>
+</section>
+<section id="what-comes-next" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-comes-next">What comes next</h2>
+<div class="column-page">
+<ol class="ac-next">
+  <li>
+    <p class="ac-next-when">2026/27 <span>year one</span></p>
+    <ul>
+      <li>Natura 2000 trends and their drivers: habitat, land cover, drought</li>
+      <li>The created-ponds manuscript, by mid‑2027</li>
+      <li>The BiodivPond core pond dataset, on GBIF and Zenodo</li>
+      <li>eDNA against traditional surveys: the same species at the same pond and date?</li>
+      <li>Crested newt ddPCR compared with trap counts</li>
+      <li>A first pass at calling frogs and toads in the recordings</li>
+      <li>The 2027 citizen-science season, 500 ponds</li>
+    </ul>
+  </li>
+  <li>
+    <p class="ac-next-when">2027/28 <span>year two</span></p>
+    <ul>
+      <li>The methods manuscript: eDNA, acoustic and traditional detection compared</li>
+      <li>The inter-laboratory eDNA ring test, as a contributor</li>
+      <li>Pond conditions and richness at the core ponds: nutrients, vegetation, land use, and fish from eDNA</li>
+      <li>Field and processing time for each method</li>
+    </ul>
+  </li>
+  <li>
+    <p class="ac-next-when">Later</p>
+    <ul>
+      <li>Natura 2000 drivers: local factors (management, hydrology, fish) against the landscape (land cover, land use, connectivity)</li>
+      <li>Ponds across Europe: land cover and fish across 560 core and citizen-science ponds</li>
+    </ul>
+  </li>
+</ol>
+</div>
+</section>
+<section id="where-it-connects" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="where-it-connects">Where it connects</h2>
+<div class="column-page">
+<ul class="ac-links">
+  <li>
+    <a href="../biodivpond/index.html">
+      <span class="ac-l-kind">Biodiversa+ pilot · I coordinate it</span>
+      <b>BiodivPond</b>
+      <span>The field backbone: core ponds, eDNA, acoustic recorders and the citizen-science scheme.</span>
+    </a>
+  </li>
+  <li>
+    <div>
+      <span class="ac-l-kind">TA ČR · 2026 to 2028</span>
+      <b>eDNA4Nature</b>
+      <span>eDNA tools for aquatic biodiversity, led by the Faculty of Environmental Sciences. Its certified methodology is meant for the Agency's monitoring; I represent the Agency as its end user.</span>
+    </div>
+  </li>
+  <li>
+    <a href="../prospective-life/index.html">
+      <span class="ac-l-kind">Integrated LIFE project</span>
+      <b>PROSPECTIVE LIFE</b>
+      <span>The recommendations feed the planned action plans for the natterjack toad (<i>Epidalea calamita</i>) and the Carpathian newt.</span>
+    </a>
+  </li>
+</ul>
+</div>
+<div class="page-links">
+<p><a href="https://jonasgaigr.github.io/PhD-interview-presentation/" class="btn btn-outline-primary" role="button">Seminar slides, October 2026</a> <a href="https://biodivpond.github.io" class="btn btn-outline-primary" role="button">BiodivPond website</a> <a href="../../cv.html#education" class="btn btn-outline-primary" role="button">Thesis topic in my CV</a></p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Jonáš Gaigr · Last updated <time datetime="2026-11-23">23 November 2026</time></p>
+</div>   
+    <div class="nav-footer-center">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:jonas.gaigr@gmail.com">
+      <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/jonasgaigr">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://orcid.org/0009-0004-0267-1382">
+      <i class="bi bi-orcid" role="img" aria-label="ORCID">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/jonasgaigr/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://bsky.app/profile/jonasgaigr.bsky.social">
+      <i class="bi bi-bluesky" role="img" aria-label="Bluesky">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

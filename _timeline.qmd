@@ -26,7 +26,7 @@
     </div>
 
     <section class="pj-group" aria-labelledby="pj-c1">
-      <h3 id="pj-c1">Transnational novel monitoring</h3>
+      <h3 id="pj-c1">Transnational biodiversity monitoring</h3>
       <p class="pj-why">Biodiversa+ pilots that test novel monitoring methods across countries: automated stations, insects by DNA metabarcoding, and ponds.</p>
       <ul>
         <li><a href="projects/biodiversa-plus/index.html"><span class="pj-name"><b>Biodiversa+</b><span>Monitoring work stream · 2022 to 2028</span></span><span class="pj-track"><span class="pj-bar" style="--s:2022;--e:2028"></span></span></a></li>
@@ -37,7 +37,7 @@
     </section>
 
     <section class="pj-group" aria-labelledby="pj-c2">
-      <h3 id="pj-c2">Natura 2000 and threatened species in Czechia</h3>
+      <h3 id="pj-c2">Natura 2000 network and threatened species in Czechia</h3>
       <p class="pj-why">Two integrated LIFE projects. My work on condition evaluation began in the first and continues in the second.</p>
       <ul>
         <li><a href="projects/life-n2k-revisited/index.html"><span class="pj-name"><b>LIFE-IP N2K Revisited</b><span>2020 to 2026</span></span><span class="pj-track"><span class="pj-bar" style="--s:2020;--e:2026"></span></span></a></li>

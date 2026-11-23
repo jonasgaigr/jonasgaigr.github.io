@@ -67,6 +67,9 @@ format:
     toc-depth: 2
     title-block-banner: true
     link-external-newwindow: true
+    # internal = this site's own pages (and local files when previewing);
+    # other sites under jonasgaigr.github.io/<repo>/ open in a new window
+    link-external-filter: '^(?:https://jonasgaigr[.]github[.]io/(?:index[.]html|cv[.]html|contact[.]html|projects|publications[.]html|CV_Jonas_Gaigr[.]pdf|img/|[#?]|$)|file:)'
     include-in-header:
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">
